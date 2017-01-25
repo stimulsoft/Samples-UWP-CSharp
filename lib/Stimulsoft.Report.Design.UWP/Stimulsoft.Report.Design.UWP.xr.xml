@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Text" />
+    <RootPropertyPathName Name="Group" />
+    <RootPropertyPathName Name="Key" />
+    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="Image" />
+    <RootPropertyPathName Name="TypeName" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="IsChecked" />
+    <RootPropertyPathName Name="ActualHeight" />
+    <RootPropertyPathName Name="IsExpanded" />
+    <RootPropertyPathName Name="ImageSource" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiWindow">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="ChildrenTransitions" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiListView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="CanDragItems" />
+      <RootProperty Name="CanReorderItems" />
+      <RootProperty Name="AllowDrop" />
+      <RootProperty Name="IsEnabled" />
+      <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="Drop" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonFooterPanel">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiWindowNavigationLeftButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Visibility" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiWindowNavigationRightButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiChartConditionsCollectionWindow" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiTextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="AcceptsReturn" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="AllowDrop" />
+      <RootEvent Name="TextChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiDatePicker">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiColorButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="SelectedBrush" />
+      <RootEvent Name="SelectedColorChanged" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiChartConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiChartFiltersCollectionWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiChartFilterZoneControl" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiListBox">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiColorCollectionEditorWindow" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiPageBase">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
+      <RootProperty Name="IsSourceGrouped" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiGridView">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="GroupStyle" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="CanDragItems" />
+      <RootProperty Name="CanReorderItems" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="AllowDrop" />
+      <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="ItemClick" />
+      <RootEvent Name="Drop" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewBase">
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="IsItemClickEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.WrapGrid">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="ItemWidth" />
+      <RootProperty Name="ItemHeight" />
+      <RootProperty Name="MaximumRowsOrColumns" />
+      <RootProperty Name="HorizontalChildrenAlignment" />
+      <RootProperty Name="VerticalChildrenAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Source" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="RelativeSource" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiAppBarButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiConstantLinesEditorPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="HorizontalSnapPointsType" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="MinZoomFactor" />
+      <RootProperty Name="MaxZoomFactor" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="VerticalSnapPointsType" />
+      <RootMethod Name="GetIsHorizontalScrollChainingEnabled" />
+      <RootMethod Name="SetIsHorizontalScrollChainingEnabled" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiCheckBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="TabIndex" />
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiEditorToggleButton">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RotateGlyph" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Checked" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiLegendEditorWindow" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.PropertyGridBrushControl">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiLineMarkerWindow" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SemanticZoom">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ZoomedOutView" />
+      <RootProperty Name="ZoomedInView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GroupStyle">
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Panel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiSeriesControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiSeriesEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiStripsEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiTableEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Chart.StiTitleEditorWindow" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiEditableTextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootEvent Name="EditorButtonClick" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiColorScaleConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonToggleButton">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="Click" />
+      <RootEvent Name="Checked" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiConditionBorderSidesEditorControl" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiComboBoxItem">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiConditionItemZoneControl" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiAppBarSeparator">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiConditionsEditorPage" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonButton">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxWidth" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonVerticalSeparator">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonColorButton">
+      <RootProperty Name="SelectedBrush" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="SelectedColorChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiRadioButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsChecked" />
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiDataBarConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiIconControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiIconSetConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiIconSetsControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiPermissionsControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Conditions.StiStylesControl" />
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="AllowDrop" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="Style" />
+      <RootProperty Name="IsActive" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.CrossTab.StiCrossTabImage">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="PointerPressed" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Data" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.CrossTab.StiCrossTabEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiBusinessObjectEditPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiCalcDataColumnEditControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiCategoryEditControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiDataColumnEditControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiDataSetToBOControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiDialogInfoItemsWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiSelectTypeOfBusinessObjectControl" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Dictionary.StiVariableEditPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.BusinessObject.StiBOPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.BusinessObject.StiFiltersPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.BusinessObject.StiSortPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.DataBand.StiDataRelationPage" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiNumericUpDown">
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.DataBand.StiDataSourcePage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.DataBand.StiFiltersPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.DataBand.StiMasterComponentPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.DataBand.StiSortPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.GroupHeaderBand.StiDataColumnPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.GroupHeaderBand.StiExpressionPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.ImageEditor.StiDataColumnPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.ImageEditor.StiImageDataPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.ImageEditor.StiImagePage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.ImageEditor.StiImageURLPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.PageSetup.StiColumnsPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.PageSetup.StiPaperPage" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiSlider">
+      <RootProperty Name="Value" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="LargeChange" />
+      <RootProperty Name="SmallChange" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.PageSetup.StiWatermarkPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootEvent Name="Navigated" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonTabControlRadioButton">
+      <RootProperty Name="Content" />
+      <RootEvent Name="Checked" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiBandPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiBarCodesEditorPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiBorderEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiBusinessObjectPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiContainerSelectWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiGroupHeaderBandEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiImageEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiInteractionDrillDownPageSelectWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiInteractionEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiPageSetupPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiSimpleImageEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiSubReportPageSelectWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.StiSystemTextEditorPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.SystemTextEditor.StiDataColumnPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.SystemTextEditor.StiExpressionPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.SystemTextEditor.StiSummaryPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Editors.SystemTextEditor.StiSystemVariablesPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Pages.StiReportSetup1Page" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Pages.StiReportSetup2Page" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Pages.StiReportSetupPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Preview.StiPreviewPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.Brush.StiGlareControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.Brush.StiGradientControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.Brush.StiSolidControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiBrushEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiCapEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiDataColumnWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiMarginsWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiMinMaxWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiRestrictionsControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiShapeTypeControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiShiftModeControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiTextEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.StiTextOptionsWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.Controls.PropertyGridExpander" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton">
+      <RootProperty Name="Style" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ButtonBase">
+      <RootProperty Name="ClickMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="Storyboard" />
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetTargetName" />
+      <RootMethod Name="SetTargetName" />
+      <RootMethod Name="GetTargetProperty" />
+      <RootMethod Name="SetTargetProperty" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.RotateTransform" />
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.PropertyGrid.StiPropertyGrid" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.QuickButtons.StiSettingsCompControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiMenuItemNewControl" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonMainTabControl">
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonMainTabControlItem">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonGroup">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="RunDialogButtonVisibility" />
+      <RootEvent Name="DialogButtonClick" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonSpecialComboBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TabIndex" />
+      <RootEvent Name="ItemsChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiRibbon2013MainMenu" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiRibbonDictionaryContextualTab" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonMainMenu2013Control">
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.Ribbon2013BackButton" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonMainMenu2013TabItem">
+      <RootProperty Name="PanelContent" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonMainMenu2013Button">
+      <RootEvent Name="ButtonClick" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiRibbonMainMenu2013Background" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiRibbonToolBoxAllComponentsControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Ribbon.StiRibbonToolBoxTabControl" />
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Glyph" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonFlowTabControl">
+      <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="UnselectionChanged" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.StiSpecialLockedControl">
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.RibbonFlowPanel">
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.StiDesignerControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.StiDesignerPage" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.StiFontDialogWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Styles.StiStyleConditionsEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Styles.StiStyleConditionZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Styles.StiStyleDesignerPage" />
+    <RootType FullName="Stimulsoft.Controls.UWP.Controls.StiGroupBox">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiBooleanEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiCurrencyEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiCustomEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiDateEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiNumberEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiPercentageEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiTextFormatEditorWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.TextFormats.StiTimeEditorControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Wizards.StiDataBandPlacementWizardWindow" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Wizards.StiFilterZoneControl" />
+    <RootType FullName="Stimulsoft.Report.Design.UWP.Wizards.StiSortZoneControl" />
+  </Roots.RootTypes>
+</Roots>

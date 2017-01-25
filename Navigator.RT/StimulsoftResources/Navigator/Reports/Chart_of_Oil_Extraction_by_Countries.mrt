@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <Data Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>Data</Alias>
+        <BusinessObjects isList="true" count="3">
+          <Auto Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Auto</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="5">
+              <value>Rank,System.Double</value>
+              <value>Country,System.String</value>
+              <value>Year2009,System.Double</value>
+              <value>Year2005,System.Double</value>
+              <value>Year2000,System.Double</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>2a0f68e3785644a48c22023e696ee860</Guid>
+            <Name>Auto</Name>
+          </Auto>
+          <GlobalGrowth Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>GlobalGrowth</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="5">
+              <value>Region,System.String</value>
+              <value>Year2006,System.Double</value>
+              <value>Year2007,System.Double</value>
+              <value>Year2008,System.Double</value>
+              <value>Year2009,System.Double</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>36d0555835114ac39d0763ed8e3c0963</Guid>
+            <Name>GlobalGrowth</Name>
+          </GlobalGrowth>
+          <Opec Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Opec</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="9">
+              <value>Year,System.Double</value>
+              <value>Iran,System.Double</value>
+              <value>Iraq,System.Double</value>
+              <value>Kuwait,System.Double</value>
+              <value>SaudiArabia,System.Double</value>
+              <value>UAE,System.Double</value>
+              <value>Venezuela,System.Double</value>
+              <value>Libya,System.Double</value>
+              <value>Nigeria,System.Double</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>f142691bb65e4a8ebefc98fe53e6441f</Guid>
+            <Name>Opec</Name>
+          </Opec>
+        </BusinessObjects>
+        <Category>Data</Category>
+        <Columns isList="true" count="0" />
+        <Dictionary isRef="1" />
+        <Guid>db106d01386f4abf820e2195be48951f</Guid>
+        <Name>Data</Name>
+      </Data>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart1 Ref="7" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="8" type="Stimulsoft.Report.Chart.StiStackedColumnArea" isKey="true">
+            <BorderColor>105, 78, 46</BorderColor>
+            <Brush>GradientBrush,[255:255:255],[255:255:236],90</Brush>
+            <Chart isRef="7" />
+            <GridLinesHor Ref="9" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="8" />
+              <Color>100, 105, 78, 46</Color>
+              <MinorColor>100, 105, 78, 46</MinorColor>
+            </GridLinesHor>
+            <GridLinesHorRight Ref="10" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="8" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <GridLinesVert Ref="11" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+              <Area isRef="8" />
+              <Color>100, 105, 78, 46</Color>
+              <MinorColor>100, 105, 78, 46</MinorColor>
+            </GridLinesVert>
+            <InterlacingHor Ref="12" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+              <Area isRef="8" />
+              <InterlacedBrush>[10:155:128:96]</InterlacedBrush>
+            </InterlacingHor>
+            <InterlacingVert Ref="13" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+              <Area isRef="8" />
+              <InterlacedBrush>[10:155:128:96]</InterlacedBrush>
+            </InterlacingVert>
+            <XAxis Ref="14" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+              <Area isRef="8" />
+              <Interaction Ref="15" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="16" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Angle>45</Angle>
+                <Color>105, 78, 46</Color>
+                <Font>Tahoma,9</Font>
+              </Labels>
+              <LineColor>105, 78, 46</LineColor>
+              <Range Ref="17" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Ticks Ref="18" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <Title Ref="19" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Direction>LeftToRight</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </XAxis>
+            <XTopAxis Ref="20" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+              <Area isRef="8" />
+              <Interaction Ref="21" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="22" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Font>Tahoma,8</Font>
+              </Labels>
+              <LineColor>105, 78, 46</LineColor>
+              <Ticks Ref="23" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <Title Ref="24" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Direction>LeftToRight</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </XTopAxis>
+            <YAxis Ref="25" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="8" />
+              <Interaction Ref="26" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="27" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Font>Tahoma,9</Font>
+              </Labels>
+              <LineColor>105, 78, 46</LineColor>
+              <Range Ref="28" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Ticks Ref="29" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <Title Ref="30" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="31" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="8" />
+              <Interaction Ref="32" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="33" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>105, 78, 46</LineColor>
+              <Range Ref="34" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Ticks Ref="35" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <Title Ref="36" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>105, 78, 46</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>0,1,7.7,6.3</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName />
+          <Filters isList="true" count="0" />
+          <Legend Ref="37" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>105, 78, 46</BorderColor>
+            <Brush>GradientBrush,[255:255:255],[255:248:216],90</Brush>
+            <Chart isRef="7" />
+            <Columns>4</Columns>
+            <Font>Arial,10</Font>
+            <HorSpacing>6</HorSpacing>
+            <LabelsColor>105, 78, 46</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>105, 78, 46</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertSpacing>4</VertSpacing>
+          </Legend>
+          <Name>Chart1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Series isList="true" count="2">
+            <Item7 Ref="38" type="Stimulsoft.Report.Chart.StiStackedSplineAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Opec.Year</ArgumentDataColumn>
+              <Brush>[200:217:187:148]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="7" />
+              <Filters isList="true" count="0" />
+              <LineColor>217, 187, 148</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="39" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>117, 87, 48</BorderColor>
+                <Brush>[255:255:248]</Brush>
+              </Marker>
+              <SeriesLabels Ref="40" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 78, 46</BorderColor>
+                <Brush>Bisque</Brush>
+                <Chart isRef="7" />
+                <Font>Arial,7</Font>
+                <LabelColor>105, 78, 46</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>Saudi_Arabia</Title>
+              <ValueDataColumn>Data.Opec.Saudi_Arabia</ValueDataColumn>
+            </Item7>
+            <Item8 Ref="41" type="Stimulsoft.Report.Chart.StiStackedSplineAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Opec.Year</ArgumentDataColumn>
+              <Brush>[200:245:190:119]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="7" />
+              <Filters isList="true" count="0" />
+              <LineColor>245, 190, 119</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="42" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>145, 90, 19</BorderColor>
+                <Brush>[255:255:219]</Brush>
+              </Marker>
+              <SeriesLabels Ref="43" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>105, 78, 46</BorderColor>
+                <Brush>Bisque</Brush>
+                <Chart isRef="7" />
+                <Font>Arial,7</Font>
+                <LabelColor>105, 78, 46</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+              </SeriesLabels>
+              <Title>Nigeria</Title>
+              <ValueDataColumn>Data.Opec.Nigeria</ValueDataColumn>
+            </Item8>
+          </Series>
+          <SeriesLabels Ref="44" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <Chart isRef="7" />
+            <LegendValueType>Argument</LegendValueType>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueType>Argument</ValueType>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="45" type="Stimulsoft.Report.Chart.StiStyle20" isKey="true" />
+          <Title Ref="46" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <Brush>[105:78:46]</Brush>
+            <Font>Tahoma,12,Bold</Font>
+          </Title>
+        </Chart1>
+        <ReportTitleBand2 Ref="47" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,7.72,0.69</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="48" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.9,0,1.8,0.32</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>dd365b5b85b34756bb4c819897eb76a9</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>Stimulsoft</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="49" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,5.9,0.32</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>a0c26d85dfac48cdb8e83d69ab244f2e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>Chart of Oil Extraction by Countries</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="50" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.4,5.85,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>c30f1f82c8ae46fdae320dce5beaeb04</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="51" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.9,0.4,1.8,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>0f5e38bbd84348c7ab9ca02971a96f64</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="52" type="DateFormat" isKey="true">
+                <StringFormat>yyyy, MMMM</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>67e91655bd844893af46c3be1e8513dc</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ReportTitleBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>c1530bb1deee45e7904bec4911a25243</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11</PageHeight>
+      <PageWidth>8.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="53" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="54" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>3/7/2012 1:29:34 PM</ReportChanged>
+  <ReportCreated>1/20/2012 3:33:53 AM</ReportCreated>
+  <ReportDescription>This sample demonstrates how to use Stacked Spline Area Series</ReportDescription>
+  <ReportFile>E:\001\Chart_of_Oil_Extraction_by_Countries.mrt</ReportFile>
+  <ReportGuid>95587b9a4414477197338faae1bbbb64</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2012.1.1214</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

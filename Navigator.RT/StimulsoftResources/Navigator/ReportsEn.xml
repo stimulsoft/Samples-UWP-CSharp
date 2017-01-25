@@ -1,0 +1,92 @@
+<Demo>
+  <Category name="Basic Reports" desc="Basic reports demonstration.">
+    <Report name="Simple List" file="SimpleList" desc="This sample demonstrates how to create a simple list report."/>
+    <Report name="Two Simple Lists" file="TwoSimpleLists" desc="This sample demonstrates how to create two simple list reports."/>
+    <Report name="Highlight Condition" file="HighlightCondition" desc="This sample demonstrates how to use highlight condition to create a report."/>
+    <Report name="Shapes" file="Shapes" desc="This sample demonstrates how to create a report with shapes."/>
+    <Report name="Watermark" file="Watermark" desc="This sample demonstrates how to create a report with watermark."/>
+    <Report name="BarCodes" file="BarCodes" desc="This sample demonstrates how to create a report with Bar-Codes."/>
+    <Report name="HTML Tags" file="HtmlTags" desc="This sample demonstrates how to create a report with using HTML tags."/>
+    <Report name="Invoice" file="Invoice" desc="A simple invoice."/>
+    <Report name="Indicators" file="Indicators" desc="This sample shows how to use indicators in the report."/>
+  </Category>
+  <Category name="Reports with Columns" desc="Reports with columns demonstration.">
+    <Report name="Multi-Column List" file="MultiColumnList" desc="This sample demonstrates how to create a report with multiple columns. To create a report with columns set the Columns property of a page to two or more."/>
+    <Report name="Multi-Column Bands, Across-Down" file="MultiColumnBandsAcrossThenDown" desc="This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - across then down."/>
+    <Report name="Multi-Column Bands, Down-Across" file="MultiColumnBandsDownThenAcross" desc="This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - down then across."/>
+    <Report name="Labels" file="Labels" desc="This sample demonstrates how to create a report with labels."/>
+  </Category>
+  <Category name="Master-Detail Reports" desc="Master-Detail reports demonstration.">
+    <Report name="Master-Detail" file="MasterDetail" desc="This sample demonstrates how to create a Master-Detail report."/>
+    <Report name="Master-Detail with Columns" file="MasterDetailWithColumns" desc="This sample demonstrates how to create a Master-Detail report with columns."/>
+    <Report name="Two Masters on One Detail" file="TwoMastersOnOneDetail" desc="This sample demonstrates how to create a report with two master-detail links. And detail for both links is the same."/>
+    <Report name="Master-Detail on DataBand" file="MasterDetailOnDataBand" desc="This sample demonstrates how to create a Master-Detail report in which one of the bands is placed on another one."/>
+  </Category>
+  <Category name="Reports with Groups" desc="Reports with columns demonstration.">
+    <Report name="Simple Group" file="SimpleGroup" desc="This sample demonstrates how to create a simple group report with one group."/>
+    <Report name="Multi-Column Group" file="MultiColumnGroup" desc="This sample demonstrates how to create a simple group report with two columns on a page."/>
+    <Report name="Invoice with Groups" file="InvoiceWithGroups" desc="An invoice with categories."/>
+  </Category>
+  <Category name="Hierarchical Reports" desc="Reports with HierarchicalBand demonstration.">
+    <Report name="Tree" file="Tree" desc="This sample demonstrates how to create an hierarchical report."/>
+    <Report name="Tree with Headers and Footers" file="TreeWithHeadersFooters" desc="This sample demonstrates how to an create hierarchical with headers and footers."/>
+    <Report name="Tree with Totals" file="TreeWithTotals" desc="This sample demonstrates how to create an hierarchical report with totals."/>
+    <Report name="Tree with Totals, All Levels" file="TreeWithTotalsAllLevels" desc="This sample demonstrates how to create an hierarchical report with totals which includes all sub-levels of tree."/>
+    <Report name="Tree with Locked Components" file="TreeWithLockedComponents" desc="This sample demonstrates how to create an hierarchical report with locked components."/>
+  </Category>
+  <Category name="Parameters" desc="Reports, presented in this category, demonstrate how to use parameters in reports.">
+    <Report name="Detailed Categories" file="ParametersDetailedCategories" desc="Detailing by selected category of products."/>
+    <Report name="Highlight Condition" file="ParametersHighlightCondition" desc="Highlighting data rows by selected conditions."/>
+    <Report name="Selecting Country" file="ParametersSelectingCountry" desc="Showing data only by selected countries."/>
+    <Report name="Invoice" file="ParametersInvoice" desc="This sample requests parameters for printing an invoice."/>
+  </Category>
+  <Category name="Interactive Reports" desc="Reports which show how to work with the Interaction property.">
+    <Report name="Interactive Sorting" file="DrillDownSorting" desc="This sample demonstrates how to use interactive sorting."/>
+    <Report name="Interactive Sorting with Table" file="TableDrillDownSorting" desc="This sample demonstrates how to create an interactive sorting using the Table."/>
+    <Report name="Group with Collapsing" file="DrillDownGroupWithCollapsing" desc="This sample demonstrates how to use a GroupHeaderBand with collapsing."/>
+    <Report name="Group with Collapsing without Footers" file="DrillDownGroupWithCollapsingWithoutFooter" desc="This sample demonstrates how to use a GroupHeaderBand without a GroupFooterBand."/>
+    <Report name="Master-Detail with Collapsing" file="DrillDownMasterDetailWithCollapsing" desc="This sample demonstrates how to use a Master-Detail report with collapsing."/>
+    <Report name="Editable Report" file="EditableReport" desc="This sample demonstrates how to edit a rendered report in the Preview Window."/>
+    <Report name="Bookmarks, Hyperlinks" file="BookmarksHyperlinks" desc="This sample demonstrates how to use bookmarks and hyperlinks."/>
+  </Category>
+  <Category name="Tables" desc="Reports with Tables.">
+    <Report name="Simple Table" file="TableSimpleList" desc="This sample demonstrates how to create a simple report using a Table component."/>
+    <Report name="Invoice with Groups" file="TableInvoiceWithGroups" desc="This sample demonstrates how to create a report with categories using a Table component."/>
+    <Report name="Simple Group" file="TableSimpleGroup" desc="This sample demonstrates how to create a simple report with grouping using a Table component."/>
+    <Report name="Fixed Width of Columns" file="TableFixedColumns" desc="This sample demonstrates the behavior of a Table component when the FixedWidth property of columns is set to true."/>
+  </Category>
+  <Category name="Charts" desc="Reports with Charts.">
+    <Report name="Population" file="Chart_of_Population" desc="This sample demonstrates how to use Clustered Bar Series."/>
+    <Report name="GDP Growth 2005-2010" file="Chart_of_GDP_Growth_2005-2010" desc="This sample demonstrates how to use Clustered Column Series."/>
+    <Report name="Global Growth 2006 and 2008" file="Chart_of_Global_Growth_2006_and_2008" desc="This sample demonstrates how to use Stacked Column Series."/>
+    <Report name="Migration by Decade in USA" file="Chart_of_Marriages_and_Divorces_in_Euro_2001-2009" desc="This sample demonstrates how to use Line Series."/>
+    <Report name="Foreign official reserves in Euro" file="Chart_of_Foreign_official_reserves_in_Euro" desc="This sample demonstrates how to use Stepped Area Series."/>
+    <Report name="Foreign official reserves in France Italy Germany" file="Chart_of_Foreign_official_reserves_in_Euro" desc="This sample demonstrates how to use Gantt Series."/>
+    <Report name="Oil Extraction by Countries" file="Chart_of_Oil_Extraction_by_Countries" desc="This sample demonstrates how to use Stacked Spline Area Series."/>
+    <Report name="Produced Cars" file="Chart_of_Produced_Cars" desc="This sample demonstrates how to use Line Series."/>
+    <Report name="Chart Styles" file="Chart_Styles" desc="This sample demonstrates how to use Chart Styles."/>
+  </Category>
+  <Category name="Reports with EmptyBand" desc="Reports with Empty Band demonstrate.">
+    <Report name="Simple List with Empty Lines" file="SimpleListWithEmptyLines" desc="This sample demonstrates how to create a simple list report with empty lines on the bottom of a page."/>
+    <Report name="Master-Detail with Empty Lines" file="MasterDetailWithEmptyLines" desc="This sample demonstrates how to create a Master-Detail report with empty lines on the bottom of a page."/>
+    <Report name="Invoice with Empty Band" file="InvoiceWithEmptyBand" desc="An invoice created using an Empty Band."/>
+  </Category>
+  <Category name="Containers" desc="Containers features demonstration.">
+    <Report name="Side-by-Side Lists" file="SideBySideListWithContainers" desc="This sample demonstrates how to create a report that contains two side by side lists with containers."/>
+    <Report name="Side-by-Side Groups" file="SideBySideGroupWithContainers" desc="This sample demonstrates how to create a report that contains two side by side groups with containers."/>
+    <Report name="Multi-Column List" file="MultiColumnListContainers" desc="This sample demonstrates how to create a report with multiple columns using containers."/>
+    <Report name="Multi-Containers" file="MultiContainers" desc="This sample demonstrates how to create a report with multiple containers on a page."/>
+    <Report name="Master-Detail Cards" file="MasterDetailCards" desc="This sample demonstrates how to create a Master-Detail report which data are grouped as cards."/>
+  </Category>
+  <Category name="SubReports" desc="SubReports features demonstration.">
+    <Report name="Side-by-Side Lists" file="SideBySideListWithSubReports" desc="This sample demonstrates how to create a report that contains two side by side lists with Sub-Reports."/>
+    <Report name="Side-by-Side Lists on DataBand" file="SideBySideListWithSubReportsOnDataBand" desc="This sample demonstrates how to create a report that contains two side by side lists with Sub-Reports on a DataBand."/>
+    <Report name="Side-by-Side Groups" file="SideBySideGroupWithSubReports" desc="This sample demonstrates how to create a report that contains two side by side groups with Sub-Reports."/>
+  </Category>
+  <Category name="Page Segments" desc="Page segments demonstrate.">
+    <Report name="Two Segments on Width" file="TwoSegmentsOnWidth" desc="This sample demonstrates how to create a report with the width of some pages. Use the SegmentPerWidth and SegmentPerHeight properties to set the number of segments of a page."/>
+    <Report name="Unlimited Width" file="UnlimitedWidth" desc="This sample demonstrates how to create a report with the unlimited width. Use the UnlimitedWidth property to set the unlimited width of a page."/>
+    <Report name="Unlimited Height" file="UnlimitedHeight" desc="This sample demonstrates how to create a report with the unlimited height. Use the UnlimitedHeight property to set the unlimited height of a page."/>
+    <Report name="Group and List" file="GroupAndList" desc="This sample demonstrates how to combine printing of a list and group."/>
+  </Category>
+</Demo>

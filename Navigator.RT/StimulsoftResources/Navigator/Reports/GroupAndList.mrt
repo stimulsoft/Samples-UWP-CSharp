@@ -1,0 +1,1585 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <Data Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>Data</Alias>
+        <BusinessObjects isList="true" count="8">
+          <Categories Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Categories</Alias>
+            <BusinessObjects isList="true" count="1">
+              <Products Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Products</Alias>
+                <BusinessObjects isList="true" count="2">
+                  <OrderDetails Ref="5" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>OrderDetails</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <Orders Ref="6" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Orders</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="14">
+                          <value>OrderID,System.Nullable`1[System.Int32]</value>
+                          <value>CustomerID,System.String</value>
+                          <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                          <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+                          <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShipVia,System.Nullable`1[System.Int32]</value>
+                          <value>Freight,System.Nullable`1[System.Decimal]</value>
+                          <value>ShipName,System.String</value>
+                          <value>ShipAddress,System.String</value>
+                          <value>ShipCity,System.String</value>
+                          <value>ShipRegion,System.String</value>
+                          <value>ShipPostalCode,System.String</value>
+                          <value>ShipCountry,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>4255d9e1a5cc4cc3ad8fd0f6acddbc05</Guid>
+                        <Name>Orders</Name>
+                      </Orders>
+                      <Products Ref="7" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>c1820813103b469a9c9f39a5072a754c</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="5">
+                      <value>OrderID,System.Nullable`1[System.Int32]</value>
+                      <value>ProductID,System.Nullable`1[System.Int32]</value>
+                      <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                      <value>Quantity,System.Nullable`1[System.Int16]</value>
+                      <value>Discount,System.Nullable`1[System.Single]</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>5a32eccee0344aaf8b8a9d65ad7c066c</Guid>
+                    <Name>OrderDetails</Name>
+                  </OrderDetails>
+                  <Categories Ref="8" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Categories</Alias>
+                    <BusinessObjects isList="true" count="1">
+                      <Products Ref="9" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>15e74f5278aa4adbbe46ebf91ddd837c</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="4">
+                      <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                      <value>CategoryName,System.String</value>
+                      <value>Description,System.String</value>
+                      <value>Picture,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>e4f836ec17034a8a922ffdde4e842006</Guid>
+                    <Name>Categories</Name>
+                  </Categories>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="8">
+                  <value>ProductID,System.Nullable`1[System.Int32]</value>
+                  <value>ProductName,System.String</value>
+                  <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                  <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                  <value>QuantityPerUnit,System.String</value>
+                  <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                  <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                  <value>Discontinued,System.Boolean</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>323d3ae5678d4606abcdf27545034c9b</Guid>
+                <Name>Products</Name>
+              </Products>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="4">
+              <value>CategoryID,System.Nullable`1[System.Int32]</value>
+              <value>CategoryName,System.String</value>
+              <value>Description,System.String</value>
+              <value>Picture,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>d3a8e0eb0d104a1199857f4308a29e9e</Guid>
+            <Name>Categories</Name>
+          </Categories>
+          <Customers Ref="10" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Customers</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="11">
+              <value>CustomerID,System.String</value>
+              <value>CompanyName,System.String</value>
+              <value>ContactName,System.String</value>
+              <value>ContactTitle,System.String</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>Phone,System.String</value>
+              <value>Fax,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>bcc81ec243494df7b579b3c9c016946c</Guid>
+            <Name>Customers</Name>
+          </Customers>
+          <Employees Ref="11" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Employees</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="15">
+              <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+              <value>LastName,System.String</value>
+              <value>FirstName,System.String</value>
+              <value>Title,System.String</value>
+              <value>BirthDate,System.Nullable`1[System.DateTime]</value>
+              <value>HireDate,System.Nullable`1[System.DateTime]</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>HomePhone,System.String</value>
+              <value>Notes,System.String</value>
+              <value>ReportsTo,System.Nullable`1[System.Int32]</value>
+              <value>Photo,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>593eb8601f014d7fb55c7a7e480332d3</Guid>
+            <Name>Employees</Name>
+          </Employees>
+          <Order_Details Ref="12" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Order_Details</Alias>
+            <BusinessObjects isList="true" count="2">
+              <Orders Ref="13" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Orders</Alias>
+                <BusinessObjects isList="true" count="2">
+                  <Customers Ref="14" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Customers</Alias>
+                    <BusinessObjects isList="true" count="0" />
+                    <Category />
+                    <Columns isList="true" count="11">
+                      <value>CustomerID,System.String</value>
+                      <value>CompanyName,System.String</value>
+                      <value>ContactName,System.String</value>
+                      <value>ContactTitle,System.String</value>
+                      <value>Address,System.String</value>
+                      <value>City,System.String</value>
+                      <value>Region,System.String</value>
+                      <value>PostalCode,System.String</value>
+                      <value>Country,System.String</value>
+                      <value>Phone,System.String</value>
+                      <value>Fax,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>007702d0a3624fbc8fbe558fc35e4fc2</Guid>
+                    <Name>Customers</Name>
+                  </Customers>
+                  <Employees Ref="15" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Employees</Alias>
+                    <BusinessObjects isList="true" count="0" />
+                    <Category />
+                    <Columns isList="true" count="15">
+                      <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                      <value>LastName,System.String</value>
+                      <value>FirstName,System.String</value>
+                      <value>Title,System.String</value>
+                      <value>BirthDate,System.Nullable`1[System.DateTime]</value>
+                      <value>HireDate,System.Nullable`1[System.DateTime]</value>
+                      <value>Address,System.String</value>
+                      <value>City,System.String</value>
+                      <value>Region,System.String</value>
+                      <value>PostalCode,System.String</value>
+                      <value>Country,System.String</value>
+                      <value>HomePhone,System.String</value>
+                      <value>Notes,System.String</value>
+                      <value>ReportsTo,System.Nullable`1[System.Int32]</value>
+                      <value>Photo,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>59c6101cc4124a26b5a759d465c92ea5</Guid>
+                    <Name>Employees</Name>
+                  </Employees>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="14">
+                  <value>OrderID,System.Nullable`1[System.Int32]</value>
+                  <value>CustomerID,System.String</value>
+                  <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                  <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+                  <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+                  <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+                  <value>ShipVia,System.Nullable`1[System.Int32]</value>
+                  <value>Freight,System.Nullable`1[System.Decimal]</value>
+                  <value>ShipName,System.String</value>
+                  <value>ShipAddress,System.String</value>
+                  <value>ShipCity,System.String</value>
+                  <value>ShipRegion,System.String</value>
+                  <value>ShipPostalCode,System.String</value>
+                  <value>ShipCountry,System.String</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>077927ff6fc24ec7b0b1738b6d9c5bb8</Guid>
+                <Name>Orders</Name>
+              </Orders>
+              <Products Ref="16" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Products</Alias>
+                <BusinessObjects isList="true" count="2">
+                  <OrderDetails Ref="17" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>OrderDetails</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <Orders Ref="18" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Orders</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="14">
+                          <value>OrderID,System.Nullable`1[System.Int32]</value>
+                          <value>CustomerID,System.String</value>
+                          <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                          <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+                          <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShipVia,System.Nullable`1[System.Int32]</value>
+                          <value>Freight,System.Nullable`1[System.Decimal]</value>
+                          <value>ShipName,System.String</value>
+                          <value>ShipAddress,System.String</value>
+                          <value>ShipCity,System.String</value>
+                          <value>ShipRegion,System.String</value>
+                          <value>ShipPostalCode,System.String</value>
+                          <value>ShipCountry,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>47901fc9651c4c7291e979faf181b84f</Guid>
+                        <Name>Orders</Name>
+                      </Orders>
+                      <Products Ref="19" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>05f7be2b627a4d7a811ea4846064c50a</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="5">
+                      <value>OrderID,System.Nullable`1[System.Int32]</value>
+                      <value>ProductID,System.Nullable`1[System.Int32]</value>
+                      <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                      <value>Quantity,System.Nullable`1[System.Int16]</value>
+                      <value>Discount,System.Nullable`1[System.Single]</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>976827dfa0f74976b232c14cc91306fd</Guid>
+                    <Name>OrderDetails</Name>
+                  </OrderDetails>
+                  <Categories Ref="20" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Categories</Alias>
+                    <BusinessObjects isList="true" count="1">
+                      <Products Ref="21" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>5252cc114139406595b3f4ca0090b875</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="4">
+                      <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                      <value>CategoryName,System.String</value>
+                      <value>Description,System.String</value>
+                      <value>Picture,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>6c0f4f6fcb014259b27e645088dfbc39</Guid>
+                    <Name>Categories</Name>
+                  </Categories>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="8">
+                  <value>ProductID,System.Nullable`1[System.Int32]</value>
+                  <value>ProductName,System.String</value>
+                  <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                  <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                  <value>QuantityPerUnit,System.String</value>
+                  <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                  <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                  <value>Discontinued,System.Boolean</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>8e431729ce1444b5a0bee5114afcc3fe</Guid>
+                <Name>Products</Name>
+              </Products>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="5">
+              <value>OrderID,System.Nullable`1[System.Int32]</value>
+              <value>ProductID,System.Nullable`1[System.Int32]</value>
+              <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+              <value>Quantity,System.Nullable`1[System.Int16]</value>
+              <value>Discount,System.Nullable`1[System.Single]</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>311206ad932f44ae8111e710a8675f9c</Guid>
+            <Name>Order_Details</Name>
+          </Order_Details>
+          <Orders Ref="22" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Orders</Alias>
+            <BusinessObjects isList="true" count="2">
+              <Customers Ref="23" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Customers</Alias>
+                <BusinessObjects isList="true" count="0" />
+                <Category />
+                <Columns isList="true" count="11">
+                  <value>CustomerID,System.String</value>
+                  <value>CompanyName,System.String</value>
+                  <value>ContactName,System.String</value>
+                  <value>ContactTitle,System.String</value>
+                  <value>Address,System.String</value>
+                  <value>City,System.String</value>
+                  <value>Region,System.String</value>
+                  <value>PostalCode,System.String</value>
+                  <value>Country,System.String</value>
+                  <value>Phone,System.String</value>
+                  <value>Fax,System.String</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>31c6410a70064059ae41bb0c3b00fc05</Guid>
+                <Name>Customers</Name>
+              </Customers>
+              <Employees Ref="24" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Employees</Alias>
+                <BusinessObjects isList="true" count="0" />
+                <Category />
+                <Columns isList="true" count="15">
+                  <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                  <value>LastName,System.String</value>
+                  <value>FirstName,System.String</value>
+                  <value>Title,System.String</value>
+                  <value>BirthDate,System.Nullable`1[System.DateTime]</value>
+                  <value>HireDate,System.Nullable`1[System.DateTime]</value>
+                  <value>Address,System.String</value>
+                  <value>City,System.String</value>
+                  <value>Region,System.String</value>
+                  <value>PostalCode,System.String</value>
+                  <value>Country,System.String</value>
+                  <value>HomePhone,System.String</value>
+                  <value>Notes,System.String</value>
+                  <value>ReportsTo,System.Nullable`1[System.Int32]</value>
+                  <value>Photo,System.String</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>f5e5e2339ba94fdc88a8b27e08c856c9</Guid>
+                <Name>Employees</Name>
+              </Employees>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="14">
+              <value>OrderID,System.Nullable`1[System.Int32]</value>
+              <value>CustomerID,System.String</value>
+              <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+              <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+              <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+              <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+              <value>ShipVia,System.Nullable`1[System.Int32]</value>
+              <value>Freight,System.Nullable`1[System.Decimal]</value>
+              <value>ShipName,System.String</value>
+              <value>ShipAddress,System.String</value>
+              <value>ShipCity,System.String</value>
+              <value>ShipRegion,System.String</value>
+              <value>ShipPostalCode,System.String</value>
+              <value>ShipCountry,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>055d809731924aae9da2efaa878f1170</Guid>
+            <Name>Orders</Name>
+          </Orders>
+          <Products Ref="25" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Products</Alias>
+            <BusinessObjects isList="true" count="2">
+              <OrderDetails Ref="26" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>OrderDetails</Alias>
+                <BusinessObjects isList="true" count="2">
+                  <Orders Ref="27" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Orders</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <Customers Ref="28" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Customers</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="11">
+                          <value>CustomerID,System.String</value>
+                          <value>CompanyName,System.String</value>
+                          <value>ContactName,System.String</value>
+                          <value>ContactTitle,System.String</value>
+                          <value>Address,System.String</value>
+                          <value>City,System.String</value>
+                          <value>Region,System.String</value>
+                          <value>PostalCode,System.String</value>
+                          <value>Country,System.String</value>
+                          <value>Phone,System.String</value>
+                          <value>Fax,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>52c1bf04281d488f90665cea6f97ee6e</Guid>
+                        <Name>Customers</Name>
+                      </Customers>
+                      <Employees Ref="29" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Employees</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="15">
+                          <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                          <value>LastName,System.String</value>
+                          <value>FirstName,System.String</value>
+                          <value>Title,System.String</value>
+                          <value>BirthDate,System.Nullable`1[System.DateTime]</value>
+                          <value>HireDate,System.Nullable`1[System.DateTime]</value>
+                          <value>Address,System.String</value>
+                          <value>City,System.String</value>
+                          <value>Region,System.String</value>
+                          <value>PostalCode,System.String</value>
+                          <value>Country,System.String</value>
+                          <value>HomePhone,System.String</value>
+                          <value>Notes,System.String</value>
+                          <value>ReportsTo,System.Nullable`1[System.Int32]</value>
+                          <value>Photo,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>f97ade078f63432d8cd9a1892c843c12</Guid>
+                        <Name>Employees</Name>
+                      </Employees>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="14">
+                      <value>OrderID,System.Nullable`1[System.Int32]</value>
+                      <value>CustomerID,System.String</value>
+                      <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                      <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+                      <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+                      <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+                      <value>ShipVia,System.Nullable`1[System.Int32]</value>
+                      <value>Freight,System.Nullable`1[System.Decimal]</value>
+                      <value>ShipName,System.String</value>
+                      <value>ShipAddress,System.String</value>
+                      <value>ShipCity,System.String</value>
+                      <value>ShipRegion,System.String</value>
+                      <value>ShipPostalCode,System.String</value>
+                      <value>ShipCountry,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>15c87e77d6ff4ad6986a4d9c08f6e428</Guid>
+                    <Name>Orders</Name>
+                  </Orders>
+                  <Products Ref="30" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Products</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <OrderDetails Ref="31" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>OrderDetails</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="5">
+                          <value>OrderID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>Quantity,System.Nullable`1[System.Int16]</value>
+                          <value>Discount,System.Nullable`1[System.Single]</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>ba50bd4ceb5849ea8d33a18f70b0725a</Guid>
+                        <Name>OrderDetails</Name>
+                      </OrderDetails>
+                      <Categories Ref="32" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Categories</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="4">
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryName,System.String</value>
+                          <value>Description,System.String</value>
+                          <value>Picture,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>e35760eca2d44a828e634d963c8c1791</Guid>
+                        <Name>Categories</Name>
+                      </Categories>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="8">
+                      <value>ProductID,System.Nullable`1[System.Int32]</value>
+                      <value>ProductName,System.String</value>
+                      <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                      <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                      <value>QuantityPerUnit,System.String</value>
+                      <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                      <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                      <value>Discontinued,System.Boolean</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>f2d92debedfd49ada148c1890adebe50</Guid>
+                    <Name>Products</Name>
+                  </Products>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="5">
+                  <value>OrderID,System.Nullable`1[System.Int32]</value>
+                  <value>ProductID,System.Nullable`1[System.Int32]</value>
+                  <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                  <value>Quantity,System.Nullable`1[System.Int16]</value>
+                  <value>Discount,System.Nullable`1[System.Single]</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>ade09d47b4744341b28d252377c4095a</Guid>
+                <Name>OrderDetails</Name>
+              </OrderDetails>
+              <Categories Ref="33" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Categories</Alias>
+                <BusinessObjects isList="true" count="1">
+                  <Products Ref="34" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Products</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <OrderDetails Ref="35" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>OrderDetails</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="5">
+                          <value>OrderID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>Quantity,System.Nullable`1[System.Int16]</value>
+                          <value>Discount,System.Nullable`1[System.Single]</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>8441832bc9b54638a0a04484305152d2</Guid>
+                        <Name>OrderDetails</Name>
+                      </OrderDetails>
+                      <Categories Ref="36" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Categories</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="4">
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryName,System.String</value>
+                          <value>Description,System.String</value>
+                          <value>Picture,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>9a889098a52f4ae7ad6b334b76436b90</Guid>
+                        <Name>Categories</Name>
+                      </Categories>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="8">
+                      <value>ProductID,System.Nullable`1[System.Int32]</value>
+                      <value>ProductName,System.String</value>
+                      <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                      <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                      <value>QuantityPerUnit,System.String</value>
+                      <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                      <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                      <value>Discontinued,System.Boolean</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>b1736c60b5424c54ab3d77eb1dde3ee9</Guid>
+                    <Name>Products</Name>
+                  </Products>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="4">
+                  <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                  <value>CategoryName,System.String</value>
+                  <value>Description,System.String</value>
+                  <value>Picture,System.String</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>0ef0711b1d3644e9bfc0bdae07117146</Guid>
+                <Name>Categories</Name>
+              </Categories>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="8">
+              <value>ProductID,System.Nullable`1[System.Int32]</value>
+              <value>ProductName,System.String</value>
+              <value>SupplierID,System.Nullable`1[System.Int32]</value>
+              <value>CategoryID,System.Nullable`1[System.Int32]</value>
+              <value>QuantityPerUnit,System.String</value>
+              <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+              <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+              <value>Discontinued,System.Boolean</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>c487170ee7ba4a5da93102d7e01069aa</Guid>
+            <Name>Products</Name>
+          </Products>
+          <Shippers Ref="37" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Shippers</Alias>
+            <BusinessObjects isList="true" count="0" />
+            <Category />
+            <Columns isList="true" count="3">
+              <value>ShipperID,System.Nullable`1[System.Int32]</value>
+              <value>CompanyName,System.String</value>
+              <value>Phone,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>2377d79d7f3744aba348a1070e312ea3</Guid>
+            <Name>Shippers</Name>
+          </Shippers>
+          <Suppliers Ref="38" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+            <Alias>Suppliers</Alias>
+            <BusinessObjects isList="true" count="1">
+              <Products Ref="39" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                <Alias>Products</Alias>
+                <BusinessObjects isList="true" count="2">
+                  <OrderDetails Ref="40" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>OrderDetails</Alias>
+                    <BusinessObjects isList="true" count="2">
+                      <Orders Ref="41" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Orders</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="14">
+                          <value>OrderID,System.Nullable`1[System.Int32]</value>
+                          <value>CustomerID,System.String</value>
+                          <value>EmployeeID,System.Nullable`1[System.Int32]</value>
+                          <value>OrderDate,System.Nullable`1[System.DateTime]</value>
+                          <value>RequiredDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShippedDate,System.Nullable`1[System.DateTime]</value>
+                          <value>ShipVia,System.Nullable`1[System.Int32]</value>
+                          <value>Freight,System.Nullable`1[System.Decimal]</value>
+                          <value>ShipName,System.String</value>
+                          <value>ShipAddress,System.String</value>
+                          <value>ShipCity,System.String</value>
+                          <value>ShipRegion,System.String</value>
+                          <value>ShipPostalCode,System.String</value>
+                          <value>ShipCountry,System.String</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>3c5496148ab242bbb3c59a443273e679</Guid>
+                        <Name>Orders</Name>
+                      </Orders>
+                      <Products Ref="42" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>16ae4c68c1394e0e8e07a360654fd73b</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="5">
+                      <value>OrderID,System.Nullable`1[System.Int32]</value>
+                      <value>ProductID,System.Nullable`1[System.Int32]</value>
+                      <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                      <value>Quantity,System.Nullable`1[System.Int16]</value>
+                      <value>Discount,System.Nullable`1[System.Single]</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>7237e287e32d45efb0fa615215fd4f80</Guid>
+                    <Name>OrderDetails</Name>
+                  </OrderDetails>
+                  <Categories Ref="43" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                    <Alias>Categories</Alias>
+                    <BusinessObjects isList="true" count="1">
+                      <Products Ref="44" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+                        <Alias>Products</Alias>
+                        <BusinessObjects isList="true" count="0" />
+                        <Category />
+                        <Columns isList="true" count="8">
+                          <value>ProductID,System.Nullable`1[System.Int32]</value>
+                          <value>ProductName,System.String</value>
+                          <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                          <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                          <value>QuantityPerUnit,System.String</value>
+                          <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                          <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                          <value>Discontinued,System.Boolean</value>
+                        </Columns>
+                        <Dictionary isRef="1" />
+                        <Guid>2fea5db2d23846d6a9ae39145b4441a0</Guid>
+                        <Name>Products</Name>
+                      </Products>
+                    </BusinessObjects>
+                    <Category />
+                    <Columns isList="true" count="4">
+                      <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                      <value>CategoryName,System.String</value>
+                      <value>Description,System.String</value>
+                      <value>Picture,System.String</value>
+                    </Columns>
+                    <Dictionary isRef="1" />
+                    <Guid>164914478ced4198829bad037e4cbe00</Guid>
+                    <Name>Categories</Name>
+                  </Categories>
+                </BusinessObjects>
+                <Category />
+                <Columns isList="true" count="8">
+                  <value>ProductID,System.Nullable`1[System.Int32]</value>
+                  <value>ProductName,System.String</value>
+                  <value>SupplierID,System.Nullable`1[System.Int32]</value>
+                  <value>CategoryID,System.Nullable`1[System.Int32]</value>
+                  <value>QuantityPerUnit,System.String</value>
+                  <value>UnitPrice,System.Nullable`1[System.Decimal]</value>
+                  <value>UnitsInStock,System.Nullable`1[System.Int16]</value>
+                  <value>Discontinued,System.Boolean</value>
+                </Columns>
+                <Dictionary isRef="1" />
+                <Guid>7143f998157f42a38a68d59d416a5dad</Guid>
+                <Name>Products</Name>
+              </Products>
+            </BusinessObjects>
+            <Category />
+            <Columns isList="true" count="12">
+              <value>SupplierID,System.Nullable`1[System.Int32]</value>
+              <value>CompanyName,System.String</value>
+              <value>ContactName,System.String</value>
+              <value>ContactTitle,System.String</value>
+              <value>Address,System.String</value>
+              <value>City,System.String</value>
+              <value>Region,System.String</value>
+              <value>PostalCode,System.String</value>
+              <value>Country,System.String</value>
+              <value>Phone,System.String</value>
+              <value>Fax,System.String</value>
+              <value>HomePage,System.String</value>
+            </Columns>
+            <Dictionary isRef="1" />
+            <Guid>46d363524bce4ee7b268c7c9d1994665</Guid>
+            <Name>Suppliers</Name>
+          </Suppliers>
+        </BusinessObjects>
+        <Category>Data</Category>
+        <Columns isList="true" count="0" />
+        <Dictionary isRef="1" />
+        <Guid>dbce36d658bf4898ba4b788215391b0a</Guid>
+        <Name>Data</Name>
+      </Data>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <Page1 Ref="45" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageFooterBand1 Ref="46" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,27.3,38,0.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text6 Ref="47" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,12.2,0.4</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>ad84269fa3d4464fa7647675e22f3369</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="45" />
+              <Parent isRef="46" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>a48c61547ef647ac82a6ec16eb23357c</Guid>
+          <Name>PageFooterBand1</Name>
+          <Page isRef="45" />
+          <Parent isRef="45" />
+        </PageFooterBand1>
+        <Panel3 Ref="48" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,38,2</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="49" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>33.6,0,4.4,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>fe671a378d034e50ae5cdb4e44028d00</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="45" />
+              <Parent isRef="48" />
+              <Text>Stimulsoft</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text8 Ref="50" type="Text" isKey="true">
+              <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,33.6,0.8</ClientRectangle>
+              <ComponentStyle>Title1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>4d532d4a87a54ab484b515af6275ab99</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="45" />
+              <Parent isRef="48" />
+              <Text>Group and List</Text>
+              <TextBrush>[193:152:89]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text7 Ref="51" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,1,14.6,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>6f2f56c0466e46e6ac3e2dad1054da12</Guid>
+              <Linked>True</Linked>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="45" />
+              <Parent isRef="48" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text7>
+            <Text18 Ref="52" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>33.6,1,4.4,0.8</ClientRectangle>
+              <ComponentStyle>Title2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Guid>eb9b9abe56544838a85c3a48749fde8c</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="45" />
+              <Parent isRef="48" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[102:77:38]</TextBrush>
+              <TextFormat Ref="53" type="DateFormat" isKey="true">
+                <StringFormat>yyyy, MMMM</StringFormat>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DockStyle>Top</DockStyle>
+          <Guid>f3377e1330874be3b12559f9d8cf641f</Guid>
+          <Name>Panel3</Name>
+          <Page isRef="45" />
+          <Parent isRef="45" />
+          <PrintOn>OnlyFirstPage</PrintOn>
+        </Panel3>
+        <Panel1 Ref="54" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>23.6,2,14.4,24.5</ClientRectangle>
+          <Components isList="true" count="4">
+            <HeaderBand4 Ref="55" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,14.4,0.6</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text21 Ref="56" type="Text" isKey="true">
+                  <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,14.4,0.6</ClientRectangle>
+                  <ComponentStyle>Header2</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text21</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="55" />
+                  <Text>Products</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text21>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>HeaderBand4</Name>
+              <Page isRef="45" />
+              <Parent isRef="54" />
+              <PrintOnAllPages>False</PrintOnAllPages>
+            </HeaderBand4>
+            <HeaderBand2 Ref="57" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.8,14.4,0.6</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text11 Ref="58" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>7.2,0,4.6,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="57" />
+                  <Text>Units In Stock</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text10 Ref="59" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>0,0,7.2,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text10</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="57" />
+                  <Text>Product</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text10>
+                <Text12 Ref="60" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>11.8,0,2.6,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text12</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="57" />
+                  <Text>Price</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text12>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>HeaderBand2</Name>
+              <Page isRef="45" />
+              <Parent isRef="54" />
+            </HeaderBand2>
+            <DataBand2 Ref="61" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid>c487170ee7ba4a5da93102d7e01069aa</BusinessObjectGuid>
+              <ClientRectangle>0,3.2,14.4,0.6</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text2 Ref="62" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,7.2,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text2</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="61" />
+                  <Text>{Data.Products.ProductName}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text2>
+                <Text3 Ref="63" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>7.2,0,4.6,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="61" />
+                  <Text>{Data.Products.UnitsInStock}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+                <Text4 Ref="64" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>11.8,0,2.6,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="61" />
+                  <Text>{Data.Products.UnitPrice}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <TextFormat Ref="65" type="CurrencyFormat" isKey="true">
+                    <GroupSeparator>,</GroupSeparator>
+                    <NegativePattern>0</NegativePattern>
+                    <PositivePattern>0</PositivePattern>
+                  </TextFormat>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataSourceName isNull="true" />
+              <EvenStyle>Data2</EvenStyle>
+              <Filters isList="true" count="0" />
+              <Name>DataBand2</Name>
+              <Page isRef="45" />
+              <Parent isRef="54" />
+              <Sort isList="true" count="2">
+                <value>ASC</value>
+                <value>ProductName</value>
+              </Sort>
+            </DataBand2>
+            <FooterBand1 Ref="66" type="FooterBand" isKey="true">
+              <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,4.6,14.4,0.8</ClientRectangle>
+              <Components isList="true" count="0" />
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Name>FooterBand1</Name>
+              <Page isRef="45" />
+              <Parent isRef="54" />
+              <PrintOnAllPages>True</PrintOnAllPages>
+            </FooterBand1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DockStyle>Right</DockStyle>
+          <Name>Panel1</Name>
+          <Page isRef="45" />
+          <Parent isRef="45" />
+        </Panel1>
+        <Panel2 Ref="67" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2,23.4,24.5</ClientRectangle>
+          <Components isList="true" count="5">
+            <HeaderBand1 Ref="68" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,23.4,0.6</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text1 Ref="69" type="Text" isKey="true">
+                  <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,23.4,0.6</ClientRectangle>
+                  <ComponentStyle>Header2</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text1</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="68" />
+                  <Text>Companies</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>HeaderBand1</Name>
+              <Page isRef="45" />
+              <Parent isRef="67" />
+              <PrintOnAllPages>False</PrintOnAllPages>
+            </HeaderBand1>
+            <HeaderBand5 Ref="70" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.8,23.4,0.6</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text13 Ref="71" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>7.4,0,6.2,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text13</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="70" />
+                  <Text>Address</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text13>
+                <Text23 Ref="72" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>0,0,7.4,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text23</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="70" />
+                  <Text>Company</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text23>
+                <Text24 Ref="73" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>13.6,0,5.4,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text24</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="70" />
+                  <Text>Phone</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text24>
+                <Text25 Ref="74" type="Text" isKey="true">
+                  <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>[242:234:221]</Brush>
+                  <ClientRectangle>19,0,4.4,0.6</ClientRectangle>
+                  <ComponentStyle>Header3</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text25</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="70" />
+                  <Text>Contact</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <VertAlignment>Center</VertAlignment>
+                </Text25>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>HeaderBand5</Name>
+              <Page isRef="45" />
+              <Parent isRef="67" />
+            </HeaderBand5>
+            <GroupHeaderBand1 Ref="75" type="GroupHeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,3.2,23.4,1.2</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text26 Ref="76" type="Text" isKey="true">
+                  <Border>Bottom;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,23.4,1.2</ClientRectangle>
+                  <ComponentStyle>Header1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,19</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text26</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="75" />
+                  <Text>{Data.Customers.CompanyName.Substring(0, 1)}</Text>
+                  <TextBrush>[193:152:89]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text26>
+                <StartPointPrimitive1 Ref="77" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                  <ClientRectangle>0,1.2,0,0</ClientRectangle>
+                  <Name>StartPointPrimitive1</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="75" />
+                  <ReferenceToGuid>93e5b56caafa4893a7292868a7a93caf</ReferenceToGuid>
+                </StartPointPrimitive1>
+              </Components>
+              <Condition>{Data.Customers.CompanyName.Substring(0, 1)}</Condition>
+              <Conditions isList="true" count="0" />
+              <Name>GroupHeaderBand1</Name>
+              <Page isRef="45" />
+              <Parent isRef="67" />
+            </GroupHeaderBand1>
+            <DataBand3 Ref="78" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid>bcc81ec243494df7b579b3c9c016946c</BusinessObjectGuid>
+              <ClientRectangle>0,5.2,23.4,0.6</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text29 Ref="79" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>7.4,0,6.2,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text29</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="78" />
+                  <Text>{Data.Customers.Address}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text29>
+                <Text30 Ref="80" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>13.6,0,5.4,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text30</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="78" />
+                  <Text>{Data.Customers.Phone}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text30>
+                <Text31 Ref="81" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>19,0,4.4,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text31</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="78" />
+                  <Text>{Data.Customers.ContactTitle}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text31>
+                <Text28 Ref="82" type="Text" isKey="true">
+                  <Border>Left, Right;[193:152:89];1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,7.4,0.6</ClientRectangle>
+                  <ComponentStyle>Data1</ComponentStyle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text28</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="78" />
+                  <Text>{Data.Customers.CompanyName}</Text>
+                  <TextBrush>[102:77:38]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text28>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataSourceName isNull="true" />
+              <EvenStyle>Data2</EvenStyle>
+              <Filters isList="true" count="0" />
+              <KeepGroupTogether>True</KeepGroupTogether>
+              <Name>DataBand3</Name>
+              <Page isRef="45" />
+              <Parent isRef="67" />
+              <Sort isList="true" count="0" />
+            </DataBand3>
+            <GroupFooterBand1 Ref="83" type="GroupFooterBand" isKey="true">
+              <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,6.6,23.4,0.4</ClientRectangle>
+              <Components isList="true" count="1">
+                <EndPointPrimitive1 Ref="84" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                  <ClientRectangle>23.4,0,0,0</ClientRectangle>
+                  <Name>EndPointPrimitive1</Name>
+                  <Page isRef="45" />
+                  <Parent isRef="83" />
+                  <ReferenceToGuid>93e5b56caafa4893a7292868a7a93caf</ReferenceToGuid>
+                </EndPointPrimitive1>
+              </Components>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Name>GroupFooterBand1</Name>
+              <Page isRef="45" />
+              <Parent isRef="67" />
+            </GroupFooterBand1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DockStyle>Left</DockStyle>
+          <Name>Panel2</Name>
+          <Page isRef="45" />
+          <Parent isRef="45" />
+        </Panel2>
+        <RectanglePrimitive1 Ref="85" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0,6.4,23.4,2.2</ClientRectangle>
+          <Color>193, 152, 89</Color>
+          <Guid>93e5b56caafa4893a7292868a7a93caf</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="45" />
+          <Parent isRef="45" />
+        </RectanglePrimitive1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>ddc7771a77da43da943658fa56e5a55d</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <SegmentPerWidth>2</SegmentPerWidth>
+      <Watermark Ref="86" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="87" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Group and List</ReportAlias>
+  <ReportAuthor isNull="true" />
+  <ReportChanged>1/22/2012 1:08:28 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>This sample demonstrates how to combine printing of a list and group.</ReportDescription>
+  <ReportFile>E:\001\GroupAndList.mrt</ReportFile>
+  <ReportGuid>7170f1409cce45e5af22e7bc39673725</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2012.1.1207</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Components;
+using Stimulsoft.Base.Drawing;
+
+namespace StiReports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="12">
+    <Title1 Ref="88" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,19</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Title1</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title1>
+    <Title2 Ref="89" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Title2</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Title2>
+    <Header1 Ref="90" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,19</Font>
+      <Name>Header1</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="91" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header3 Ref="92" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseHorAlignment>True</AllowUseHorAlignment>
+      <AllowUseVertAlignment>True</AllowUseVertAlignment>
+      <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[242:234:221]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header3</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header3>
+    <Header4 Ref="93" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>All;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header4</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header4>
+    <Data1 Ref="94" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data1</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="95" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <AllowUseTextOptions>False</AllowUseTextOptions>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data2</Name>
+      <TextBrush>Black</TextBrush>
+    </Data2>
+    <Data3 Ref="96" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>[240:237:232]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Data3</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data3>
+    <Footer1 Ref="97" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>Top;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,9</Font>
+      <Name>Footer1</Name>
+      <TextBrush>[102:77:38]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+    <Footer2 Ref="98" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,12,Bold</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer2</Name>
+      <TextBrush>[193:152:89]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer2>
+    <CrossTab Ref="99" type="Stimulsoft.Report.StiCrossTabStyle" isKey="true">
+      <Color>242, 234, 221</Color>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>CrossTab</Name>
+    </CrossTab>
+  </Styles>
+</StiSerializer>

@@ -1,0 +1,51 @@
+﻿<Page x:Class="Variables.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Margin" Value="4"/>
+                <Setter Property="Width" Value="90"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="4">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource labelStyle}" Text="Name"/>
+                <TextBox Margin="4" Name="tbName" Text="Name" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource labelStyle}" Text="Surname"/>
+                <TextBox Margin="4" Name="tbSurname" Text="Surname" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource labelStyle}" Text="Email"/>
+                <TextBox Margin="4" Name="tbEmail" Text="Email" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource labelStyle}" Text="Address"/>
+                <TextBox Margin="4" Name="tbAddress" Text="Address" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource labelStyle}" Text="Sex"/>
+                <RadioButton Name="rbMale" IsChecked="True" Content="Male"/>
+                <RadioButton Name="rbFemale" Margin="8,0,0,0" Content="Female"/>
+            </StackPanel>
+            <Button HorizontalAlignment="Stretch" Margin="2" Content="Preview" Click="btPreview_Click"/>
+        </StackPanel>
+
+        <viewer:StiViewerControl x:Name="viewerCotnrol" Grid.Column="1"/>
+    </Grid>
+</Page>

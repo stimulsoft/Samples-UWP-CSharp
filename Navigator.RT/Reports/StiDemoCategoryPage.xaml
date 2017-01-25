@@ -1,0 +1,65 @@
+﻿<controls:StiPageBase x:Class="Navigator.RT.Reports.StiDemoCategoryPage"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="using:Stimulsoft.Controls.UWP.Controls">
+    <controls:StiPageBase.Resources>
+        <ResourceDictionary>
+            <CollectionViewSource x:Name="cvs1"/>
+            <Style x:Key="BasicTextStyle" TargetType="TextBlock">
+                <Setter Property="Foreground" Value="{StaticResource office15Foreground}"/>
+                <Setter Property="FontSize" Value="{StaticResource ControlContentThemeFontSize}"/>
+                <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+                <Setter Property="TextTrimming" Value="WordEllipsis"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="LineHeight" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </controls:StiPageBase.Resources>
+    <controls:StiPageBase.BottomAppBar>
+        <controls:StiAppBar x:Name="bottomAppBar" IsOpen="True">
+            <Grid Margin="10,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <controls:StiAppBarButton x:Name="buttonAddReport" Content="" Click="ButtonAddReportClick"/>
+                    <controls:StiAppBarButton x:Name="buttonRemove" Content="" Click="ButtonRemoveClick"/>
+                </StackPanel>
+                <controls:StiAppBarButton x:Name="buttonPinReport" Content="" HorizontalAlignment="Right" Click="ButtonPinReportClick"/>
+            </Grid>
+        </controls:StiAppBar>
+    </controls:StiPageBase.BottomAppBar>
+    <Grid x:Name="rootGrid" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition/>
+            <RowDefinition Height="85"/>
+        </Grid.RowDefinitions>
+        <controls:StiGridView x:Name="itemsGrid" Grid.Row="1"
+                  ItemsSource="{Binding Source={StaticResource cvs1}}" 
+                  IsItemClickEnabled="True" Padding="131,0,0,0"
+                  SelectionMode="Single"
+                  SelectionChanged="ItemsGridSelectionChanged"
+                  ItemClick="ItemsGridItemClick">
+            <controls:StiGridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="480" MinHeight="70" MaxHeight="150" Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ms-appx:///StimulsoftResources/Navigator/Images/Report.png" VerticalAlignment="Top" Margin="0,8,0,0" Stretch="None" IsHitTestVisible="False"/>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,4,0,0" IsHitTestVisible="False">
+                            <TextBlock Text="{Binding Header}" Style="{StaticResource BasicTextStyle}" FontWeight="SemiBold"/>
+                            <TextBlock Text="{Binding Desc}" Style="{StaticResource BasicTextStyle}" TextAlignment="Justify" FontWeight="SemiLight" MaxHeight="60"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </controls:StiGridView.ItemTemplate>
+            <controls:StiGridView.Header>
+                <StackPanel Width="300" Margin="0,0,14,0" VerticalAlignment="Top">
+                    <TextBlock x:Name="textBlockKey" FontSize="27" FontWeight="Light" Foreground="{StaticResource office15AppButton2010Background}" LineHeight="30" Margin="-1,10,0,15" MaxHeight="60"/>
+                    <TextBlock x:Name="textBlockDesc" FontSize="19" TextWrapping="Wrap" Foreground="{StaticResource office15Foreground}" FontWeight="SemiLight" LineHeight="20"/>
+                </StackPanel>
+            </controls:StiGridView.Header>
+        </controls:StiGridView>
+        <ProgressRing x:Name="progressRing" Grid.Row="1" Visibility="Collapsed" Style="{StaticResource StiProgressRingStyle}"/>
+    </Grid>
+</controls:StiPageBase>

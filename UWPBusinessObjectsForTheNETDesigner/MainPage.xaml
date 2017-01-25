@@ -1,0 +1,21 @@
+﻿<Page x:Class="UWPBusinessObjectsForTheNETDesigner.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:UWPBusinessObjectsForTheNETDesigner"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="30">
+            <StackPanel>
+                <TextBlock Text="A structure of the dictionary is saved (business objects) to the file '.dct'. Then you can load it in any report designer using - 'Dictionary - Actions - Open Dictionary' to render a report template." TextWrapping="Wrap" FontSize="18" Margin="6"/>
+                <Button Name="buttonSaveDictionaryFile" MinWidth="200" Content="Save Dictionary File" Click="buttonSaveDictionaryFile_Click"/>
+            </StackPanel>
+            <StackPanel Margin="0,60,0,0">
+                <TextBlock Text="The report template is saved (.mrt) with the structure of the dictionary (business objects), to further build it into the WinForms designer." TextWrapping="Wrap" FontSize="18" Margin="6"/>
+                <Button Name="buttonSaveReport" MinWidth="200" Content="Save Report" Click="buttonSaveReport_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

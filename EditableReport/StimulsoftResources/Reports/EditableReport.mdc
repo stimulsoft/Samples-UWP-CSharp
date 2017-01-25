@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Editable Report</ReportAlias>
+  <ReportVersion>2012.2.1331</ReportVersion>
+  <ReportDescription>This sample demonstrates how to edit a rendered report in the Preview Window.</ReportDescription>
+  <ReportCreated>8/30/2012 4:42:22 PM</ReportCreated>
+  <Unit Ref="1" type="cm" isKey="true" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <Components isList="true" count="32">
+        <item0 Ref="4" type="Container" isSer="true" name="PageFooterBand2" guid="7a4f19a67ba940928be68dc2eb6ca260" rc="0,27.3,19,0.4" bh="Transparent" />
+        <item1 Ref="5" type="Container" isSer="true" name="ReportTitleBand2" guid="4b74f6a5e287463fa2ad5e8c3c99224b" rc="0,0,19,2" bh="Transparent" />
+        <item2 Ref="6" type="Text" isSer="true" name="Text4" text="Page 1 of 1" ha="Right" va="Center" guid="92f7612c3ca4475299501a6202b06929" tvh="1" pl="pf.PageFooterBand2" style="Footer1" rc="6.8,27.3,12.2,0.4" fn="Arial,9" tb="[102:77:38]" bh="Transparent" br="None;[193:152:89];1;Solid;False;4;Black" />
+        <item3 Ref="7" type="Text" isSer="true" name="Text20" text="Stimulsoft" ha="Right" va="Center" guid="0ad1a4b90b954638a40037bd36305d41" pl="rt.ReportTitleBand2" style="Title1" rc="9.4,0,9.6,0.8" fn="Arial,19" tb="[193:152:89]" bh="Transparent" br="Bottom;[193:152:89];1;Solid;False;4;Black" />
+        <item4 Ref="8" type="Text" isSer="true" name="Text23" text="Editable Report" va="Center" guid="f484dee2e8b74abf8c063996f0d81ecf" pl="rt.ReportTitleBand2" style="Title1" rc="0,0,9.4,0.8" fn="Arial,19" tb="[193:152:89]" bh="Transparent" br="Bottom;[193:152:89];1;Solid;False;4;Black" />
+        <item5 Ref="9" type="Text" isSer="true" name="Text2" text="This sample demonstrates how to edit a rendered report in the Preview Window." guid="42e5be820ddd4bf5a66e5dfe4e0c335e" pl="rt.ReportTitleBand2" style="Title2" rc="0,1,14.6,0.8" fn="Arial,9" tb="[102:77:38]" bh="Transparent" br="None;[102:77:38];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item6 Ref="10" type="Text" isSer="true" name="Text3" text="Date: Август 2012" ha="Right" guid="8eb72b24d56d4fa08e0a375882f21402" excelvalue="Date: Август 2012" format="D" pl="rt.ReportTitleBand2" style="Title2" rc="14.6,1,4.4,0.8" fn="Arial,9" tb="[102:77:38]" bh="Transparent" br="None;[102:77:38];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item7 Ref="11" type="Text" isSer="true" name="Text1" text="For editing the report use the tool - the editor." ha="Center" va="Center" pl="h.ap.HeaderBand1" style="Header1" rc="0.2,2,18.6,0.8" fn="Arial,19" tb="[193:152:89]" bh="Transparent" br="None;[193:152:89];1;Solid;False;4;Black" />
+        <item8 Ref="12" type="Text" isSer="true" name="Text17" text="Beverages" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,3,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item9 Ref="13" type="Text" isSer="true" name="Text18" text="Soft drinks, coffees, teas, beers, and ales" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,3,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="14" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,3,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item11 Ref="15" type="Text" isSer="true" name="Text17" text="Condiments" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,5.8,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item12 Ref="16" type="Text" isSer="true" name="Text18" text="Sweet and savory sauces, relishes, spreads, and seasonings" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,5.8,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="17" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,5.8,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item14 Ref="18" type="Text" isSer="true" name="Text17" text="Confections" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,8.6,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item15 Ref="19" type="Text" isSer="true" name="Text18" text="Desserts, candies, and sweet breads" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,8.6,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="20" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,8.6,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item17 Ref="21" type="Text" isSer="true" name="Text17" text="Dairy Products" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,11.4,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item18 Ref="22" type="Text" isSer="true" name="Text18" text="Cheeses" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,11.4,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="23" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,11.4,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item20 Ref="24" type="Text" isSer="true" name="Text17" text="Grains/Cereals" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,14.2,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item21 Ref="25" type="Text" isSer="true" name="Text18" text="Breads, crackers, pasta, and cereal" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,14.2,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="26" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,14.2,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item23 Ref="27" type="Text" isSer="true" name="Text17" text="Meat/Poultry" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,17,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item24 Ref="28" type="Text" isSer="true" name="Text18" text="Prepared meats" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,17,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="29" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,17,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item26 Ref="30" type="Text" isSer="true" name="Text17" text="Produce" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,19.8,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item27 Ref="31" type="Text" isSer="true" name="Text18" text="Dried fruit and bean curd" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,19.8,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="32" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,19.8,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+        <item29 Ref="33" type="Text" isSer="true" name="Text17" text="Seafood" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="0.2,22.6,6.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item30 Ref="34" type="Text" isSer="true" name="Text18" text="Seaweed and fish" ha="Center" va="Center" ed="true" pl="d.DataBand1" style="Header2" rc="6.8,22.6,9.4,2.4" fn="Arial,12,Bold" tb="[193:152:89]" bh="Transparent" br="All;[193:152:89];1;Solid;False;4;Black" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <CheckBox1 Ref="35" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>All;[193:152:89];1;Solid;False;4;Black</br>
+          <tb>[193:152:89]</tb>
+          <Editable>True</Editable>
+          <CheckedValue>True</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <CheckStyleForFalse>Cross</CheckStyleForFalse>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>16.4,22.6,2.4,2.4</ClientRectangle>
+          <Name>CheckBox1</Name>
+          <ComponentPlacement>d.DataBand1</ComponentPlacement>
+          <ComponentStyle>Header2</ComponentStyle>
+        </CheckBox1>
+      </Components>
+      <Guid>50f74abe7ed8414e8177e69fd3c28cd2</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Styles isList="true" count="12">
+    <Title1 Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Right</ha>
+      <va>Center</va>
+      <fn>Arial,19</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Title1</Name>
+    </Title1>
+    <Title2 Ref="37" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <va>Center</va>
+      <fn>Arial,9</fn>
+      <br>None;[102:77:38];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[102:77:38]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Title2</Name>
+    </Title2>
+    <Header1 Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <va>Center</va>
+      <fn>Arial,19</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Header1</Name>
+    </Header1>
+    <Header2 Ref="39" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Center</ha>
+      <va>Center</va>
+      <fn>Arial,12,Bold</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Header2</Name>
+    </Header2>
+    <Header3 Ref="40" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Center</ha>
+      <va>Center</va>
+      <fn>Arial,9,Bold</fn>
+      <br>All;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>[242:234:221]</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseHorAlignment>True</AllowUseHorAlignment>
+      <AllowUseVertAlignment>True</AllowUseVertAlignment>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Header3</Name>
+    </Header3>
+    <Header4 Ref="41" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Center</ha>
+      <va>Center</va>
+      <fn>Arial,9,Bold</fn>
+      <br>All;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Header4</Name>
+    </Header4>
+    <Data1 Ref="42" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <va>Center</va>
+      <fn>Arial,9</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[102:77:38]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Data1</Name>
+    </Data1>
+    <Data2 Ref="43" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Arial,9</fn>
+      <bh>[240:237:232]</bh>
+      <tb>Black</tb>
+      <AllowUseFont>False</AllowUseFont>
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseTextBrush>False</AllowUseTextBrush>
+      <AllowUseTextOptions>False</AllowUseTextOptions>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Data2</Name>
+    </Data2>
+    <Data3 Ref="44" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <va>Center</va>
+      <fn>Arial,9</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>[240:237:232]</bh>
+      <tb>[102:77:38]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Data3</Name>
+    </Data3>
+    <Footer1 Ref="45" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <va>Center</va>
+      <fn>Arial,9</fn>
+      <br>Top;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[102:77:38]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Footer1</Name>
+    </Footer1>
+    <Footer2 Ref="46" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Right</ha>
+      <va>Center</va>
+      <fn>Arial,12,Bold</fn>
+      <br>None;[193:152:89];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[193:152:89]</tb>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>Footer2</Name>
+    </Footer2>
+    <CrossTab Ref="47" type="Stimulsoft.Report.StiCrossTabStyle" isKey="true">
+      <Color>242, 234, 221</Color>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Name>CrossTab</Name>
+    </CrossTab>
+  </Styles>
+  <Bookmark Ref="48" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Editable Report</text>
+    <Engine>EngineV2</Engine>
+    <IsManualBookmark>False</IsManualBookmark>
+  </Bookmark>
+</StiSerializer>

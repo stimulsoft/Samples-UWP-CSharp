@@ -1,0 +1,1052 @@
+<?xml version="1.0"?>
+<StiFunctions>
+  <Category Name="Strings">
+    <Function>
+      <Name>Length</Name>
+      <Description>Returns the number of characters of the specified string.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A number of characters.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentDescription>The Text string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Trim</Name>
+      <Description>Removes all occurrences of white space characters from the beginning and end of the specified string.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>String after white space characters are removed.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentDescription>The Text string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToLowerCase</Name>
+      <Description>Returns a string converted to lowercase.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>String in the lowercase.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentDescription>The Text string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToUpperCase</Name>
+      <Description>Returns a string converted to uppercase.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>String in the uppercase.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentDescription>The Text string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToProperCase</Name>
+      <Description>Capitalizes the first letter of each word in the string and converts all other letters to lower case.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A converted string.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentDescription>The Text string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Substring</Name>
+      <Description>Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A String equivalent to the substring of length length that begins at startIndex in this instance, or Empty if startIndex is equal to the length of this instance and length is zero.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentName>startIndex</ArgumentName>
+      <ArgumentName>length</ArgumentName>
+      <ArgumentDescription>Text string.</ArgumentDescription>
+      <ArgumentDescription>The index of the start of the substring.</ArgumentDescription>
+      <ArgumentDescription>The number of characters in the substring.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Roman</Name>
+      <Description>Converts an Arabic numeral to a Roman numeral, as text.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string which is the roman numeral representation of value.</ReturnDescription>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>Arabic numeral to be converted.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Arabic</Name>
+      <Description>Converts Number to Arabic numerals, as text.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string which is the arabic numeral representation of value.</ReturnDescription>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>Number to be converted.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Arabic</Name>
+      <Description>Converts all digits in string to Arabic digits.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string with arabic digits.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>String to be converted.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Persian</Name>
+      <Description>Converts Number to Persian numerals, as text.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string which is the persian numeral representation of value.</ReturnDescription>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>Number to be converted.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Persian</Name>
+      <Description>Converts all digits in string to Persian digits.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string with persian digits.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>String to be converted.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Replace</Name>
+      <Description>Replaces all occurrences of a specified string in the specified instance, with another specified string.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string equivalent to specified string but with all instances of an oldValue replaced with a newValue.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentName>oldValue</ArgumentName>
+      <ArgumentName>newValue</ArgumentName>
+      <ArgumentDescription>A string to be processed.</ArgumentDescription>
+      <ArgumentDescription>A string to be replaced.</ArgumentDescription>
+      <ArgumentDescription>A string to replace all occurrences of oldValue.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Remove</Name>
+      <Description>Deletes a specified number of characters from this instance beginning at a specified position.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A new string that is equivalent to the specified string less count number of characters.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentName>startIndex</ArgumentName>
+      <ArgumentName>count</ArgumentName>
+      <ArgumentDescription>A string to be processed.</ArgumentDescription>
+      <ArgumentDescription>The position to begin deleting characters. </ArgumentDescription>
+      <ArgumentDescription>The number of characters to delete.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>Insert</Name>
+      <Description>Inserts a specified instance of a string to the specified index position in the specified string.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A new string equivalent to the specified string but with value inserted at the startIndex position.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int32</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>str</ArgumentName>
+      <ArgumentName>startIndex</ArgumentName>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A string to be processed.</ArgumentDescription>
+      <ArgumentDescription>The index position of the insertion.</ArgumentDescription>
+      <ArgumentDescription>The String to insert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>DateToStr</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>DateToStr</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the integer value with cents.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with or without cents with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>showCents</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then cents of the value will be added to the resulting string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the decimal value with cents.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with or without cents with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>showCents</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then cents of the value will be added to the resulting string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the float-point value with cents.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with or without cents with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>showCents</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then cents of the value will be added to the resulting string.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToCurrencyWords</Name>
+      <Description>Converts the specified value to its equivalent string representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with or without cents with the first symbol in the uppercase. Names of cents and dollars of the currency is to be specified in the dollars and cents parameters.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>showCents</ArgumentName>
+      <ArgumentName>dollars</ArgumentName>
+      <ArgumentName>cents</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then cents of the value will be added to the resulting string.</ArgumentDescription>
+      <ArgumentDescription>A string in format "dollar/dollars" ("pound/pounds"), etc.</ArgumentDescription>
+      <ArgumentDescription>A string in format "cent/cents" ("penny/pence"), etc.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>DateToStr</Group>
+      <Name>DateToStrRu</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>DateToStr</Group>
+      <Name>DateToStrRu</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the integer value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the decimal value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the float-point value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "RUR", "USD", "EUR", "UAH".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "RUR", "USD", "EUR", "UAH".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsRu</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Russian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "RUR", "USD", "EUR", "UAH".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsThai</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Thai language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsThai</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Thai language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsThai</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Thai language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>DateToStr</Group>
+      <Name>DateToStrUa</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>DateToStr</Group>
+      <Name>DateToStrUa</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the integer value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the decimal value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the float-point value with kopecks.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "UAH", "USD", "EUR", "RUR".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Double</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "UAH", "USD", "EUR", "RUR".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsUa</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Ukrainian language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the integer value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentName>currency</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "UAH", "USD", "EUR", "RUR".</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsPtBr</Name>
+      <Description>Converts the specified value to its equivalent string representation in Portuguese (Brazil) language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsFr</Name>
+      <Description>Converts the specified value to its equivalent string representation in French (Standard) language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>number</ArgumentName>
+      <ArgumentName>currencyISO</ArgumentName>
+      <ArgumentName>decimals</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>A value containing a currency ISO code ("EUR" or "GBP").</ArgumentDescription>
+      <ArgumentDescription>A value containing a decimals.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsEs</Name>
+      <Description>Converts the specified value to its equivalent string representation in Spanish (Spain Traditional) language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>number</ArgumentName>
+      <ArgumentName>currencyISO</ArgumentName>
+      <ArgumentName>decimals</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>A value containing a currency ISO code ("EUR" or "GBP").</ArgumentDescription>
+      <ArgumentDescription>A value containing a decimals.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsNl</Name>
+      <Description>Converts the specified value to its equivalent string representation in Dutch (Standard) language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>number</ArgumentName>
+      <ArgumentName>currencyISO</ArgumentName>
+      <ArgumentName>decimals</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>A value containing a currency ISO code ("EUR" or "GBP").</ArgumentDescription>
+      <ArgumentDescription>A value containing a decimals.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsEnGb</Name>
+      <Description>Converts the specified value to its equivalent string representation in English (United Kingdom) language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the float-point value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>number</ArgumentName>
+      <ArgumentName>currencyISO</ArgumentName>
+      <ArgumentName>decimals</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>A value containing a currency ISO code ("EUR" or "GBP").</ArgumentDescription>
+      <ArgumentDescription>A value containing a decimals.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToWords</Group>
+      <Name>ToWordsPl</Name>
+      <Description>Converts the specified value to its equivalent string representation in Polish language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a number to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>DateToStr</Group>
+      <Name>DateToStrPl</Name>
+      <Description>Converts the specified datetime value to its equivalent string representation in Polish language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns the string representation of the datetime value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.DateTime</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a datetime to convert.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>ToCurrencyWords</Group>
+      <Name>ToCurrencyWordsPl</Name>
+      <Description>Converts the specified value to its equivalent string representation with using specified currency in Polish language.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>Returns or does not return the string representation of the decimal value with the first symbol in the uppercase.</ReturnDescription>
+      <ArgumentType>System.Decimal</ArgumentType>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentType>System.Boolean</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentName>currencyISO</ArgumentName>
+      <ArgumentName>showCents</ArgumentName>
+      <ArgumentName>upperCase</ArgumentName>
+      <ArgumentDescription>A value containing a currency to convert.</ArgumentDescription>
+      <ArgumentDescription>Designation currency, which will be used to transform numbers. "USD", "EUR", "PLN".</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then cents of the value will be added to the resulting string.</ArgumentDescription>
+      <ArgumentDescription>If this parameter is true then the first symbol of the resulting string will be in the uppercase.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>TryParseDecimal</Name>
+      <Description>Converts the object representation of a number to its Decimal equivalent.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.Boolean</ReturnType>
+      <ReturnDescription>True, if value was converted successfully; otherwise, false.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>An object containing the value to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>TryParseDouble</Name>
+      <Description>Converts the object representation of a number to its double-precision floating-point number equivalent.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.Boolean</ReturnType>
+      <ReturnDescription>True, if value was converted successfully; otherwise, false.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>An object containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>TryParseLong</Name>
+      <Description>Converts the object representation of a number to its 64-bit signed integer equivalent</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.Boolean</ReturnType>
+      <ReturnDescription>True, if value was converted successfully; otherwise, false.</ReturnDescription>
+      <ArgumentType>System.String</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>An object containing a number to convert.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Name>ToOrdinal</Name>
+      <Description>Converts the specified value to its ordinal representation.</Description>
+      <TypeOfFunction>Stimulsoft.Report.Dictionary.StiFunctionsStrings</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A value containing an ordinal representation of the number.</ReturnDescription>
+      <ArgumentType>System.Int64</ArgumentType>
+      <ArgumentName>value</ArgumentName>
+      <ArgumentDescription>An object containing a number to convert.</ArgumentDescription>
+    </Function>
+  </Category>
+</StiFunctions>

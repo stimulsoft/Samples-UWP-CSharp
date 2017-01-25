@@ -1,0 +1,62 @@
+﻿<controls:StiPageBase x:Class="Navigator.RT.Reports.StiDemoReportsPage"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="using:Stimulsoft.Controls.UWP.Controls">
+    <controls:StiPageBase.Resources>
+        <ResourceDictionary>
+            <CollectionViewSource x:Name="cvs1" IsSourceGrouped="true"/>
+        </ResourceDictionary>
+    </controls:StiPageBase.Resources>
+    <controls:StiPageBase.BottomAppBar>
+        <controls:StiAppBar x:Name="appBar" IsOpen="True">
+            <StackPanel x:Name="appPanel" Orientation="Horizontal" Margin="10,0,0,0" HorizontalAlignment="Left">
+                <controls:StiAppBarButton x:Name="buttonUserReports" Content="" Click="ButtonUserReportsClick"/>
+                <controls:StiAppBarSeparator x:Name="separator1" Visibility="Collapsed"/>
+                <controls:StiAppBarButton x:Name="buttonAddReport" Visibility="Collapsed" Content="" Click="ButtonAddReportClick"/>
+                <controls:StiAppBarButton x:Name="buttonDeleteCategory" Visibility="Collapsed" Content="" Click="ButtonDeleteCategoryClick"/>
+            </StackPanel>
+        </controls:StiAppBar>
+    </controls:StiPageBase.BottomAppBar>
+    <Grid x:Name="rootGrid" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition/>
+            <RowDefinition Height="85"/>
+        </Grid.RowDefinitions>
+        <controls:StiGridView x:Name="itemsGrid" Grid.Row="1" SelectionMode="Single"
+                              IsItemClickEnabled="True" Padding="131,0,0,0"
+                              SelectionChanged="ItemsGridSelectionChanged"
+                              ItemClick="ItemsGridItemClick">
+            <controls:StiGridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250" Background="{StaticResource office15GridViewBackground}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        <Rectangle Grid.Row="1" Fill="{StaticResource office15GridViewFooterBackground}" IsHitTestVisible="False"/>
+                        <Image Grid.RowSpan="2" Source="ms-appx:///StimulsoftResources/Navigator/Images/Category.png" Stretch="None" 
+                               Width="184" Height="161" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+                               Margin="0,0,11,9" IsHitTestVisible="False"/>
+                        <StackPanel Margin="15" IsHitTestVisible="False">
+                            <TextBlock Text="{Binding Group.Key}" Foreground="{StaticResource office15AppButton2010Background}" TextAlignment="Justify" TextWrapping="Wrap" FontSize="17"/>
+                            <TextBlock Text="{Binding Group.Desc}" TextWrapping="Wrap" Foreground="{StaticResource office15Foreground}" Margin="0,13,0,0" FontSize="15"/>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="15,-13,0,0" VerticalAlignment="Center" IsHitTestVisible="False">
+                            <TextBlock Text="{Binding Group.LabelReportsInCategory}"/>
+                            <TextBlock Text="{Binding Group.Count}" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </controls:StiGridView.ItemTemplate>
+            <controls:StiGridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapGrid ItemWidth="250" ItemHeight="250" MaximumRowsOrColumns="3" VerticalChildrenAlignment="Center"/>
+                </ItemsPanelTemplate>
+            </controls:StiGridView.ItemsPanel>
+        </controls:StiGridView>
+        <ProgressRing x:Name="progressRing" Style="{StaticResource StiProgressRingStyle}" Grid.Row="1" Visibility="Collapsed"/>
+        <TextBlock x:Name="labelReportsNotFound" Grid.Row="1" MaxWidth="450" HorizontalAlignment="Center" TextAlignment="Center" 
+                   VerticalAlignment="Center" Margin="0" Visibility="Collapsed" Style="{StaticResource StiDrakWatermarkLabelStyle}"/>
+    </Grid>
+</controls:StiPageBase>

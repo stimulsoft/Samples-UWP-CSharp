@@ -1,0 +1,7 @@
+﻿<Page x:Class="SharedFiles.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <viewer:StiViewerControl x:Name="viewerControl"/>
+</Page>

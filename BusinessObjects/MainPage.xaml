@@ -1,0 +1,19 @@
+﻿<Page x:Class="BusinessObjects.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Reports:" FontSize="20" Margin="10,4,4,4"/>
+            <ListBox Name="listBoxReports"/>
+            <Button HorizontalAlignment="Center" Content="Load Report" Click="buttonLoadReport_Click"/>
+        </StackPanel>
+        <viewer:StiViewerControl x:Name="viewerCotnrol" Grid.Column="1"/>
+    </Grid>
+</Page>

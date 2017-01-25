@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{42AD5409-D24E-42C7-98AE-DADC70314FA4}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Navigator.RT</RootNamespace>
+    <AssemblyName>Navigator.RT</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Navigator.RT_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="project.json" />
+    <None Include="Stimulsoft.snk" />
+    <Content Include="StimulsoftResources\Navigator\Reports\AllGroupFootersAtEnd.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\BarCodes.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\BookmarksHyperlinks.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Foreign_official_reserves_in_Euro.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Foreign_official_reserves_in_France_Italy_Germany.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_GDP_Growth_2005-2010.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Global_Growth_2006_and_2008.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Global_Growth_2008.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Marriages_and_Divorces_in_Euro_2001-2009.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Migration_by_Decade_in_USA.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Oil_Extraction_by_Countries.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Population.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Population_in_Euro_2001-2011.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_of_Produced_Cars.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Chart_Styles.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\DrillDownGroupWithCollapsing.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\DrillDownGroupWithCollapsingWithoutFooter.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\DrillDownMasterDetailWithCollapsing.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\DrillDownSorting.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\EditableReport.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\GroupAndList.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\GroupsWithRanges.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\HighlightCondition.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\HtmlTags.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Indicators.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Invoice.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\InvoiceWithEmptyBand.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\InvoiceWithGroups.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Labels.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MasterDetail.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MasterDetailCards.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MasterDetailOnDataBand.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MasterDetailWithColumns.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MasterDetailWithEmptyLines.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiColumnBandsAcrossThenDown.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiColumnBandsDownThenAcross.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiColumnGroup.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiColumnList.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiColumnListContainers.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\MultiContainers.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\ParametersDetailedCategories.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\ParametersHighlightCondition.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\ParametersInvoice.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\ParametersSelectingCountry.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Shapes.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SideBySideGroupWithContainers.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SideBySideGroupWithSubReports.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SideBySideListWithContainers.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SideBySideListWithSubReports.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SideBySideListWithSubReportsOnDataBand.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SimpleGroup.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SimpleGroupWithColumns.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SimpleList.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\SimpleListWithEmptyLines.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableDrillDownSorting.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableFixedColumns.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableImages.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableInvoiceWithGroups.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableSimpleGroup.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TableSimpleList.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Tree.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TreeWithHeadersFooters.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TreeWithLockedComponents.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TreeWithTotals.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TreeWithTotalsAllLevels.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TwoMastersOnOneDetail.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TwoSegmentsOnWidth.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\TwoSimpleLists.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\UnlimitedHeight.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\UnlimitedWidth.mrt" />
+    <Content Include="StimulsoftResources\Navigator\Reports\Watermark.mrt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomReports\StiCreateNewReportWizardPage.xaml.cs">
+      <DependentUpon>StiCreateNewReportWizardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomReports\StiCustomReportsHelper.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\StiDemoCategoryPage.xaml.cs">
+      <DependentUpon>StiDemoCategoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\StiDemoReportsPage.xaml.cs">
+      <DependentUpon>StiDemoReportsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\StiReportData.cs" />
+    <Compile Include="Splash\StiSplashControl.xaml.cs">
+      <DependentUpon>StiSplashControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Splash\StiSplashLoadingItemControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Navigator.RT_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AddCustomReport.png" />
+    <Content Include="Images\Home.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="StimulsoftResources\Navigator\Images\Category.png" />
+    <Content Include="StimulsoftResources\Navigator\Images\Report.png" />
+    <Content Include="StimulsoftResources\Navigator\ReportsEn.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="CustomReports\StiCreateNewReportWizardPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reports\StiDemoCategoryPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reports\StiDemoReportsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Splash\StiSplashControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Stimulsoft.Base.UWP">
+      <HintPath>..\lib\Stimulsoft.Base.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.UWP">
+      <HintPath>..\lib\Stimulsoft.Controls.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Helper.UWP">
+      <HintPath>..\lib\Stimulsoft.Helper.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.ImageConverter.UWP">
+      <HintPath>..\lib\Stimulsoft.ImageConverter.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design.UWP">
+      <HintPath>..\lib\Stimulsoft.Report.Design.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.UWP">
+      <HintPath>..\lib\Stimulsoft.Report.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Viewer.UWP">
+      <HintPath>..\lib\Stimulsoft.Report.Viewer.UWP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+﻿<Page x:Class="RealtimePreview.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <Grid>
+        <viewer:StiViewerControl x:Name="viewerCotnrol"/>
+    </Grid>
+</Page>

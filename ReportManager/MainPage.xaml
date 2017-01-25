@@ -1,0 +1,30 @@
+﻿<Page x:Class="ReportManager.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <Button Name="buttonAddReport" Content="Add Report" HorizontalAlignment="Stretch" Click="buttonAddReport_Click"/>
+                <Button Name="buttonDeleteReport" Content="Delete Report" IsEnabled="False" HorizontalAlignment="Stretch" Click="buttonDeleteReport_Click"/>
+                <Rectangle Height="1" Width="200" Margin="4,6,0,6" Fill="White" HorizontalAlignment="Left"/>
+                <Button Name="buttonPreviewReport" Content="Preview Report" IsEnabled="False" HorizontalAlignment="Stretch" Click="buttonPreviewReport_Click"/>
+            </StackPanel>
+            <TextBlock Text="List of Reports:" Grid.Row="1" FontSize="16" Margin="4,4,0,0"/>
+            <ListBox Name="listBox" Grid.Row="2" SelectionChanged="listBox_SelectionChanged"/>
+        </Grid>
+
+        <viewer:StiViewerControl x:Name="viewerControl" Margin="4,0,0,0" Grid.Column="1"/>
+    </Grid>
+</Page>

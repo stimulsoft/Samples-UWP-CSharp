@@ -1,0 +1,50 @@
+﻿<Page x:Class="CustomPreview.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"    
+      xmlns:viewer="using:Stimulsoft.Report.Viewer.UWP">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Margin="4,4,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock FontSize="20" Text="Settings:"/>
+            <ScrollViewer Grid.Row="1" ZoomMode="Disabled">
+                <StackPanel Name="panel1">
+                    <CheckBox Content="Main ToolBar" Margin="0,14,0,0" Tag="MainToolBarVisibility"/>
+
+                    <CheckBox Content="Print" Margin="0,14,0,14" Tag="ReportPrintButtonVisibility"/>
+                    <CheckBox Content="Open" Tag="ReportOpenButtonVisibility"/>
+                    <CheckBox Content="Save" Margin="0,14,0,14" Tag="ReportSaveButtonVisibility"/>
+
+                    <CheckBox Content="Page New" Tag="PageNewButtonVisibility"/>
+                    <CheckBox Content="Page Delete" Margin="0,14,0,14" Tag="PageDeleteButtonVisibility"/>
+                    <CheckBox Content="Page Size" Tag="PageSizeButtonVisibility"/>
+
+                    <CheckBox Content="Bookmarks" Margin="0,14,0,14" Tag="BookmarksPanelVisibility"/>
+
+                    <CheckBox Content="Find" Tag="ToolFindButtonVisibility"/>
+                    <CheckBox Content="Editor" Margin="0,14,0,14" Tag="ToolEditorButtonVisibility"/>
+
+                    <CheckBox Content="Page First" Tag="PageFirstButtonVisibility"/>
+                    <CheckBox Content="Page Previous" Margin="0,14,0,14" Tag="PagePreviousButtonVisibility"/>
+                    <CheckBox Content="Page Go To" Tag="PageGoToButtonVisibility"/>
+                    <CheckBox Content="Page Next" Margin="0,14,0,14" Tag="PageNextButtonVisibility"/>
+                    <CheckBox Content="Page Last" Tag="PageLastButtonVisibility"/>
+                </StackPanel>
+            </ScrollViewer>
+
+            <Button Name="buttonUpdateViewer" HorizontalAlignment="Stretch" IsEnabled="False" Grid.Row="2" Content="Update Viewer" Click="buttonUpdateViewer_Click"/>
+        </Grid>
+
+        <viewer:StiViewerControl x:Name="viewerCotnrol" Grid.Column="1"/>
+    </Grid>
+</Page>

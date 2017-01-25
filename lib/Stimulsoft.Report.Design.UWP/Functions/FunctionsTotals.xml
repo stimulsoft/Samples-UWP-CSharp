@@ -1,0 +1,801 @@
+<?xml version="1.0"?>
+<StiFunctions>
+  <Category Name="Totals">
+    <Function>
+      <Group>Max</Group>
+      <Name>Max</Name>
+      <Description>Function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>Expression - can be a decimal field in the data souce or formula which returns decimal number.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>Max</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxD</Name>
+      <Description>Function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxD</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxI</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxI</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxDate</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>A DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>     
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxDate</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>A DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxTime</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>A TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxTime</Name>
+      <Description>A function returns the largest value in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>A TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxStr</Name>
+      <Description>The function adds string values and sorts them alphabetically. Then returns the bottom value from the sorted list.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Max</Group>
+      <Name>MaxStr</Name>
+      <Description>The function adds string values and sorts them alphabetically. Then returns the bottom value from the sorted list.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>A string.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Min</Group>
+      <Name>Min</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>Min</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinD</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinD</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>The DataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinI</Name>
+      <Description>Function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinI</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinDate</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>The DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinDate</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>The DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinTime</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>The TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinTime</Name>
+      <Description>A function returns the lowest value in the column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>The TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinStr</Name>
+      <Description>A function adds string values and sorts them alphabetically. Then returns the top value from the sorted list.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>The string.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Min</Group>
+      <Name>MinStr</Name>
+      <Description>A function adds string values and sorts them alphabetically. Then returns the top value from the sorted list.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.String</ReturnType>
+      <ReturnDescription>The string.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Avg</Group>
+      <Name>Avg</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>Avg</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on which to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgD</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgD</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgI</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgI</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on which to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgDate</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>A DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgDate</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.DateTime</ReturnType>
+      <ReturnDescription>The DateTime value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgTime</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>A TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Avg</Group>
+      <Name>AvgTime</Name>
+      <Description>A function returns the average of all values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>The TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Sum</Group>
+      <Name>Sum</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>Sum</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumD</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumD</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumI</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumI</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumDistinct</Name>
+      <Description>A function returns the sum of all unique values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumDistinct</Name>
+      <Description>A function returns the sum of all unique values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumTime</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>A TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Sum</Group>
+      <Name>SumTime</Name>
+      <Description>A function returns the sum of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.TimeSpan</ReturnType>
+      <ReturnDescription>The TimeSpan value.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Mode</Group>
+      <Name>Mode</Name>
+      <Description>A function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Mode</Group>
+      <Name>Mode</Name>
+      <Description>A function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Mode</Group>
+      <Name>ModeD</Name>
+      <Description>A Function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Mode</Group>
+      <Name>ModeD</Name>
+      <Description>A function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Mode</Group>
+      <Name>ModeI</Name>
+      <Description>A function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Mode</Group>
+      <Name>ModeI</Name>
+      <Description>A function returns the most common value of all the values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Median</Group>
+      <Name>Median</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Median</Group>
+      <Name>Median</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Decimal</ReturnType>
+      <ReturnDescription>A decimal number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Median</Group>
+      <Name>MedianD</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Median</Group>
+      <Name>MedianD</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Double</ReturnType>
+      <ReturnDescription>A floating-point number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Median</Group>
+      <Name>MedianI</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Median</Group>
+      <Name>MedianI</Name>
+      <Description>A function returns the median of the given numbers in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>A integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>First</Group>
+      <Name>First</Name>
+      <Description>A function returns the first value in a set of the given values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Object</ReturnType>
+      <ReturnDescription>A first value in a set of the given values.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>First</Group>
+      <Name>First</Name>
+      <Description>A function returns the first value in a set of the given values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Object</ReturnType>
+      <ReturnDescription>The first value in a set of given values.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Last</Group>
+      <Name>Last</Name>
+      <Description>A function returns the last value in a set of given values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Object</ReturnType>
+      <ReturnDescription>A first value in a set of the given values.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Last</Group>
+      <Name>Last</Name>
+      <Description>A function returns the last value in a set of given values in the specified column or expression.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Object</ReturnType>
+      <ReturnDescription>The first value in a set of given values.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentName>expression</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+      <ArgumentDescription>An expression on what to perform the aggregation.</ArgumentDescription>
+    </Function>
+
+    <Function>
+      <Group>Count</Group>
+      <Name>Count</Name>
+      <Description>A function counts how many values are in the specified data source.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Count</Group>
+      <Name>Count</Name>
+      <Description>A function counts how many values are in the specified data source.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+    </Function>
+    <Function>
+      <Group>Count</Group>
+      <Name>CountDistinct</Name>
+      <Description>A function counts how many unique values are in the specified data source.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+      <ArgumentType>System.Object</ArgumentType>
+      <ArgumentName>dataSource</ArgumentName>
+      <ArgumentDescription>The Data Source for processing.</ArgumentDescription>
+    </Function>
+    <Function>
+      <Group>Count</Group>
+      <Name>CountDistinct</Name>
+      <Description>A function counts how many unique values are in the specified data source.</Description>
+      <TypeOfFunction>IsNull</TypeOfFunction>
+      <ReturnType>System.Int64</ReturnType>
+      <ReturnDescription>An integer number.</ReturnDescription>
+    </Function>
+  </Category>
+</StiFunctions>
