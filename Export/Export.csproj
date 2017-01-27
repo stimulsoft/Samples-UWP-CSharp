@@ -132,29 +132,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Stimulsoft.Base.UWP">
-      <HintPath>..\lib\Stimulsoft.Base.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Controls.UWP">
-      <HintPath>..\lib\Stimulsoft.Controls.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Helper.UWP">
-      <HintPath>..\lib\Stimulsoft.Helper.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.ImageConverter.UWP">
-      <HintPath>..\lib\Stimulsoft.ImageConverter.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Design.UWP">
-      <HintPath>..\lib\Stimulsoft.Report.Design.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.UWP">
-      <HintPath>..\lib\Stimulsoft.Report.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Viewer.UWP">
-      <HintPath>..\lib\Stimulsoft.Report.Viewer.UWP.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

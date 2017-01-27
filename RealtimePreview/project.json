@@ -1,6 +1,7 @@
 ﻿{
   "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0"
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+    "Stimulsoft.Reports.UWP": "2016.3.5"
   },
   "frameworks": {
     "uap10.0": {}
